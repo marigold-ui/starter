@@ -12,7 +12,12 @@
       "stabilityDays": 3
     },
     {
-      "matchPackagePatterns": ["marigold"],
+      "matchPackagePatterns": [
+        "@marigold/components",
+        "@marigold/system",
+        "@marigold/theme-b2b",
+        "@marigold/theme-core"
+      ],
       "groupName": "marigold"
     }
   ]
