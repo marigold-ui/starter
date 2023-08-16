@@ -19,10 +19,10 @@
     "vite": "4.4.9"
   },
   "dependencies": {
-    "@marigold/components": "6.0.1",
-    "@marigold/system": "6.0.1",
-    "@marigold/theme-b2b": "25.0.1",
-    "@marigold/theme-core": "25.0.1",
+    "@marigold/components": "6.1.0",
+    "@marigold/system": "6.1.0",
+    "@marigold/theme-b2b": "25.1.0",
+    "@marigold/theme-core": "25.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

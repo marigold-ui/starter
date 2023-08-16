@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@marigold/components':
-    specifier: 6.0.1
-    version: 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.1.0
+    version: 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@marigold/system':
-    specifier: 6.0.1
-    version: 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.1.0
+    version: 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@marigold/theme-b2b':
-    specifier: 25.0.1
-    version: 25.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
+    specifier: 25.1.0
+    version: 25.1.0(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
   '@marigold/theme-core':
-    specifier: 25.0.1
-    version: 25.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
+    specifier: 25.1.0
+    version: 25.1.0(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -563,15 +563,15 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@marigold/components@6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-tcXYLkDmCQC10it/41B9OEMb85/WYka5awKaEizyY5nmQshCQYi5TUAbnXQHCZpMdPakvGe1BLkzHYhblEy0FA==}
+  /@marigold/components@6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pv8w4+XKTEjKl5vHDtOYRn8F60ICGtR0tA/7Ihd+/0LJB7eVhjpOEYZ/2kRmOJjzIEZvYKBpau5lMuXob3z24A==}
     peerDependencies:
       react: 17.x || 18.x
       react-dom: 17.x || 18.x
     dependencies:
       '@internationalized/date': 3.3.0
-      '@marigold/icons': 1.2.7(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/system': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/icons': 1.2.8(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
       '@marigold/types': 1.0.1(@types/react@18.2.20)
       '@react-aria/accordion': 3.0.0-alpha.19(react@18.2.0)
       '@react-aria/autocomplete': 3.0.0-alpha.18(react-dom@18.2.0)(react@18.2.0)
@@ -637,20 +637,20 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.7(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-BkrbkOhoIeTepPP0VGkzNQtiktRMIGhDmVJzbvIWXULK2JXbpdnZYLnQu6cMR911K6GeJ18qIoKM0XaLoynyqw==}
+  /@marigold/icons@1.2.8(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-UOzljWnFvcqnl8LPez+3nE/eECaOYoiRsnyO3fGYQseufFHTQApNB+H3RO7MzdYRERYBmnUfaVb2fymRZ1lAoA==}
     peerDependencies:
       react: 17.x || 18.x
     dependencies:
-      '@marigold/system': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
     dev: false
 
-  /@marigold/system@6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-c2+AYwqwiQCYquUDIcIoWVg53fFX34uQKT+ztB05rapO5YtSd+vZZruc9GW9z0sLJ5gwZY8ppBqTkdpgSuz/TQ==}
+  /@marigold/system@6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8YFzSdziawZ6RdS2VrRElc4vcaf7KUoyZhi4E3+JCA52/F/0t8odEG+myMwEWFWmI2oafXvzwlC/vE43CxfPow==}
     peerDependencies:
       react: 16.x || 17.x || 18.x
       react-dom: 16.x || 17.x || 18.x
@@ -666,12 +666,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/theme-b2b@25.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-InkUYjvbwWSxMUQROKgSToSBy2d07m+aPVk/a6tm1SanwpbZn4Y7EwJN4vCtssROI8FW9zxmxJB96IgUOPG2Fw==}
+  /@marigold/theme-b2b@25.1.0(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-GjwNcpekNpbGXytlB4EDgnXLJaVOLIzG6kuUBIKN3JaLfHM6DyrbK1H/095T5Ux8Fgo6dKKvhPZofFqoD0yjbw==}
     dependencies:
-      '@marigold/components': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/system': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/theme-preset': 1.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
+      '@marigold/components': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/theme-preset': 1.0.2(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -680,12 +680,12 @@ packages:
       - tailwindcss
     dev: false
 
-  /@marigold/theme-core@25.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-U3OOjLevfBF76okq6oV+HUcfyFbLvnwCgJ+5j72xcxXvig47YFWHg4wGrYl7b53jlwi43DgbzJ6uRJQzq/QRzw==}
+  /@marigold/theme-core@25.1.0(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-cqLK1bmvLsE+wr5dqBP5vWMrbRlRUGukf7UMlrobqC34Thk5KS2aOR3L83WviEMGvIYxYP3UAwJAILGRTBcbjA==}
     dependencies:
-      '@marigold/components': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/system': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/theme-preset': 1.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
+      '@marigold/components': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/theme-preset': 1.0.2(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -694,15 +694,15 @@ packages:
       - tailwindcss
     dev: false
 
-  /@marigold/theme-preset@1.0.1(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-KTRHPLCZ07CdvMJ5ZAg0tbckWfrNd7UQWUKakW2QONjuoUx0V3T1Td24Q/rMx2s+bcUiovEdU6uJrca3Lv0yHQ==}
+  /@marigold/theme-preset@1.0.2(@types/react@18.2.20)(postcss@8.4.26)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-yC6YqX76tKsul07Bu9WZppB4ZUq0GpDR30kQbkF60f65eWf4wq5+gbGO+KsrG5ZMTBTAHfx2vbriURkoxu4jmg==}
     peerDependencies:
       postcss: 8.4.26
       tailwindcss: 3.3.3
     dependencies:
-      '@marigold/system': 6.0.1(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      deepmerge: 4.3.1
-      find-up: 5.0.0
+      '@marigold/system': 6.1.0(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      deepmerge: 4.2.2
+      find-up: 6.3.0
       postcss: 8.4.26
       tailwindcss: 3.3.3
     transitivePeerDependencies:
@@ -2195,8 +2195,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001520
-      electron-to-chromium: 1.4.490
+      caniuse-lite: 1.0.30001521
+      electron-to-chromium: 1.4.492
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
     dev: true
@@ -2206,8 +2206,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /caniuse-lite@1.0.30001520:
-    resolution: {integrity: sha512-tahF5O9EiiTzwTUqAeFjIZbn4Dnqxzz7ktrgGlMYNLH43Ul26IgTMH/zvL3DG0lZxBYnlT04axvInszUsZULdA==}
+  /caniuse-lite@1.0.30001521:
+    resolution: {integrity: sha512-fnx1grfpEOvDGH+V17eccmNjucGUnCbP6KL+l5KqBIerp26WK/+RQ7CIDE37KGJjaPyqWXXlFUyKiWmvdNNKmQ==}
     dev: true
 
   /chalk@2.4.2:
@@ -2289,6 +2289,11 @@ packages:
       ms: 2.1.2
     dev: true
 
+  /deepmerge@4.2.2:
+    resolution: {integrity: sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
   /deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
@@ -2302,8 +2307,8 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: false
 
-  /electron-to-chromium@1.4.490:
-    resolution: {integrity: sha512-6s7NVJz+sATdYnIwhdshx/N/9O6rvMxmhVoDSDFdj6iA45gHR8EQje70+RYsF4GeB+k0IeNSBnP7yG9ZXJFr7A==}
+  /electron-to-chromium@1.4.492:
+    resolution: {integrity: sha512-36K9b/6skMVwAIEsC7GiQ8I8N3soCALVSHqWHzNDtGemAcI9Xu8hP02cywWM0A794rTHm0b0zHPeLJHtgFVamQ==}
     dev: true
 
   /esbuild@0.18.20:
@@ -2370,12 +2375,12 @@ packages:
       to-regex-range: 5.0.1
     dev: false
 
-  /find-up@5.0.0:
-    resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
-    engines: {node: '>=10'}
+  /find-up@6.3.0:
+    resolution: {integrity: sha512-v2ZsoEuVHYy8ZIlYqwPe/39Cy+cFDzp4dXPaxNvkEuouymu+2Jbz0PxpKarJHYJTmv2HWT3O382qY8l4jMWthw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      locate-path: 6.0.0
-      path-exists: 4.0.0
+      locate-path: 7.2.0
+      path-exists: 5.0.0
     dev: false
 
   /fs.realpath@1.0.0:
@@ -2519,11 +2524,11 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /locate-path@6.0.0:
-    resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
-    engines: {node: '>=10'}
+  /locate-path@7.2.0:
+    resolution: {integrity: sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      p-locate: 5.0.0
+      p-locate: 6.0.0
     dev: false
 
   /loose-envify@1.4.0:
@@ -2600,23 +2605,23 @@ packages:
       wrappy: 1.0.2
     dev: false
 
-  /p-limit@3.1.0:
-    resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
-    engines: {node: '>=10'}
+  /p-limit@4.0.0:
+    resolution: {integrity: sha512-5b0R4txpzjPWVw/cXXUResoD4hb6U/x9BH08L7nw+GN1sezDzPdxeRvpc9c433fZhBan/wusjbCsqwqm4EIBIQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      yocto-queue: 0.1.0
+      yocto-queue: 1.0.0
     dev: false
 
-  /p-locate@5.0.0:
-    resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==}
-    engines: {node: '>=10'}
+  /p-locate@6.0.0:
+    resolution: {integrity: sha512-wPrq66Llhl7/4AGC6I+cqxT07LhXvWL08LNXz1fENOw0Ap4sRZZ/gZpTTJ5jpurzzzfS2W/Ge9BY3LgLjCShcw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      p-limit: 3.1.0
+      p-limit: 4.0.0
     dev: false
 
-  /path-exists@4.0.0:
-    resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
-    engines: {node: '>=8'}
+  /path-exists@5.0.0:
+    resolution: {integrity: sha512-RjhtfwJOxzcFmNOi6ltcbcu4Iu+FL3zEj83dk4kAS+fVpTxXLO1b38RvJgT/0QwvV/L3aY9TAnyv0EOqW4GoMQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: false
 
   /path-is-absolute@1.0.1:
@@ -2716,8 +2721,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /postcss@8.4.27:
-    resolution: {integrity: sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ==}
+  /postcss@8.4.28:
+    resolution: {integrity: sha512-Z7V5j0cq8oEKyejIKfpD8b4eBy9cwW2JWPk0+fB1HOAMsfHbnAXLLS+PfVWlzMSLQaWttKDt607I0XHmpE67Vw==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -2969,7 +2974,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.4.27
+      postcss: 8.4.28
       rollup: 3.28.0
     optionalDependencies:
       fsevents: 2.3.2
@@ -2988,7 +2993,7 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /yocto-queue@0.1.0:
-    resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
-    engines: {node: '>=10'}
+  /yocto-queue@1.0.0:
+    resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
+    engines: {node: '>=12.20'}
     dev: false
