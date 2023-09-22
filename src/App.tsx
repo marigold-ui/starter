@@ -6,7 +6,7 @@ export const App = () => (
   <MarigoldProvider theme={theme}>
     <Inset space={10}>
       <Button variant="primary" onClick={() => alert('Hey there!')}>
-        Hello World
+        Hello World!!!
       </Button>
     </Inset>
   </MarigoldProvider>
