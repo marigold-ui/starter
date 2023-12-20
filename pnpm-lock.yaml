@@ -6,20 +6,20 @@ settings:
 
 dependencies:
   '@marigold/components':
-    specifier: 7.0.0
-    version: 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 7.1.0
+    version: 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
   '@marigold/icons':
     specifier: ^1.2.32
     version: 1.2.32(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
   '@marigold/system':
-    specifier: 7.0.0
-    version: 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 7.1.0
+    version: 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
   '@marigold/theme-b2b':
-    specifier: 26.0.0
-    version: 26.0.0(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
+    specifier: 26.0.1
+    version: 26.0.1(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
   '@marigold/theme-core':
-    specifier: 26.0.0
-    version: 26.0.0(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
+    specifier: 26.0.1
+    version: 26.0.1(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -575,15 +575,15 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@marigold/components@7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-l0WlBMVO2DVFKMehKDuBIe/OvqoM9z+w3R1N6zts5wnKmSSTQ9ZtNCR/fHyQ6CKAaDwkH1nEXlhHIOfIjUnZcg==}
+  /@marigold/components@7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pZXvqolj+9F8OBNgelUXRZs0CNK6C7BUc0/3rS/0m1A0lkZb5ov0m1dEKeXMTREU1l1q7QkOiLZl5bxXzfYP9w==}
     peerDependencies:
       react: 17.x || 18.x
       react-dom: 17.x || 18.x
     dependencies:
       '@internationalized/date': 3.5.0
-      '@marigold/icons': 1.2.32(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/system': 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/icons': 1.2.33(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@marigold/types': 1.1.0(@types/react@18.2.45)
       '@react-aria/accordion': 3.0.0-alpha.24(react-dom@18.2.0)(react@18.2.0)
       '@react-aria/autocomplete': 3.0.0-alpha.23(react-dom@18.2.0)(react@18.2.0)
@@ -664,6 +664,18 @@ packages:
       - react-dom
     dev: false
 
+  /@marigold/icons@1.2.33(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-kdrS+ukXKgNy33HBoN6lgOpjhjvP4L8tKzpkGI1hlSE1Wly0kcdLgQitNN0iul6b30cAVJMW1pYEi+mPEeJLMA==}
+    peerDependencies:
+      react: 17.x || 18.x
+    dependencies:
+      '@marigold/system': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: false
+
   /@marigold/system@7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-xIFXmuF0HbseWQtcRSxuLtBK/+Pf++NnOuqIamnVg0b3bRZQqG0btmSzVwGFFeGVZ5hRXkOu69tZoj7/DwVGPw==}
     peerDependencies:
@@ -681,41 +693,58 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/theme-b2b@26.0.0(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6):
-    resolution: {integrity: sha512-FqCq3OV6e8qiIMDMDcMDHFWKrhCVEGWqMAeoIAsaWZOJbNDmmeY5bmASd3U7zXt5m2qCXDK77tYGDiuIPQZsmg==}
-    dependencies:
-      '@marigold/components': 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/system': 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/theme-preset': 1.2.6(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
-    transitivePeerDependencies:
-      - '@types/react'
-      - postcss
-      - react
-      - react-dom
-      - tailwindcss
-    dev: false
-
-  /@marigold/theme-core@26.0.0(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6):
-    resolution: {integrity: sha512-GWxquRAY+i42c2XDNXsQSFAQEU5JL0M4INivh/bd8jLpjMiHz9CKsBMKccETBYDMnQwm2QtK7jktXhObef5upA==}
-    dependencies:
-      '@marigold/components': 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/system': 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@marigold/theme-preset': 1.2.6(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
-    transitivePeerDependencies:
-      - '@types/react'
-      - postcss
-      - react
-      - react-dom
-      - tailwindcss
-    dev: false
-
-  /@marigold/theme-preset@1.2.6(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6):
-    resolution: {integrity: sha512-OUzMOKISvFE4H4Bim3HxeuXsE8H8Y8YhkC4BpdHzPKBLjuOHowVHhPsf6HJSgk7Zut08V5uIeKGDBCleg4EfUg==}
+  /@marigold/system@7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-FMR6lsQ5z5858YWt/3fk6fDaBwGe6PCxVE01Cp1BS4yur45Za0y9Aq9/2SDNQjaPYDg5uwj7wPqwBoqieAonIA==}
     peerDependencies:
-      postcss: 8.4.31
-      tailwindcss: 3.3.5
+      react: 16.x || 17.x || 18.x
+      react-dom: 16.x || 17.x || 18.x
     dependencies:
-      '@marigold/system': 7.0.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/types': 1.1.0(@types/react@18.2.45)
+      class-variance-authority: 0.7.0
+      deepmerge: 4.3.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.1.0
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
+  /@marigold/theme-b2b@26.0.1(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6):
+    resolution: {integrity: sha512-vlYOWIeP7Qi47pdzU6H0JRLj9RDuvF0uTjMb+kGu+p4uYJta0UyQDHxNigGP2Yy1SR/bsxoFzJ7eqxjS+icL7Q==}
+    dependencies:
+      '@marigold/components': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/theme-preset': 1.2.7(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
+    transitivePeerDependencies:
+      - '@types/react'
+      - postcss
+      - react
+      - react-dom
+      - tailwindcss
+    dev: false
+
+  /@marigold/theme-core@26.0.1(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6):
+    resolution: {integrity: sha512-N1b1KnOxbu3s7hDGw7t5IqaTTk7t2UNqO26tWNWN8axWMiCTuccjax8d70rfoAKurGT8oW1nTf53k4nH6a9eVA==}
+    dependencies:
+      '@marigold/components': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/system': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@marigold/theme-preset': 1.2.7(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6)
+    transitivePeerDependencies:
+      - '@types/react'
+      - postcss
+      - react
+      - react-dom
+      - tailwindcss
+    dev: false
+
+  /@marigold/theme-preset@1.2.7(@types/react@18.2.45)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.6):
+    resolution: {integrity: sha512-WFdT+Nv6IsOB/ukOfkpvStmQ03wuYMScHlPkKmftUgO57OZc4jc4YUf69pmcZYtpoZelL/jlQGAS+HmEXqPkCQ==}
+    peerDependencies:
+      postcss: 8.4.32
+      tailwindcss: 3.3.6
+    dependencies:
+      '@marigold/system': 7.1.0(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       deepmerge: 4.3.1
       postcss: 8.4.32
       tailwindcss: 3.3.6
@@ -3007,6 +3036,12 @@ packages:
 
   /tailwind-merge@2.0.0:
     resolution: {integrity: sha512-WO8qghn9yhsldLSg80au+3/gY9E4hFxIvQ3qOmlpXnqpDKoMruKfi/56BbbMg6fHTQJ9QD3cc79PoWqlaQE4rw==}
+    dependencies:
+      '@babel/runtime': 7.23.6
+    dev: false
+
+  /tailwind-merge@2.1.0:
+    resolution: {integrity: sha512-l11VvI4nSwW7MtLSLYT4ldidDEUwQAMWuSHk7l4zcXZDgnCRa0V3OdCwFfM7DCzakVXMNRwAeje9maFFXT71dQ==}
     dependencies:
       '@babel/runtime': 7.23.6
     dev: false
