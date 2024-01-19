@@ -11,13 +11,13 @@
   "license": "MIT",
   "homepage": "https://github.com/marigold-ui/starter#readme",
   "devDependencies": {
-    "@types/react": "18.2.45",
+    "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "@vitejs/plugin-react": "4.2.1",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
     "process": "0.11.10",
-    "tailwindcss": "^3.3.6",
+    "tailwindcss": "^3.4.1",
     "typescript": "5.3.3",
     "vite": "5.0.11"
   },
