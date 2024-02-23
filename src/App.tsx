@@ -5,7 +5,7 @@ import theme from '@marigold/theme-b2b';
 export const App = () => (
   <MarigoldProvider theme={theme}>
     <Inset space={10}>
-      <Button variant="primary" onClick={() => alert('Hey there!')}>
+      <Button variant="primary" onPress={() => alert('Hey there!')}>
         Hello World!!!
       </Button>
     </Inset>
