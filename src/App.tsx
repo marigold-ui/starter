@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Inset, MarigoldProvider } from '@marigold/components';
-import theme from '@marigold/theme-b2b';
+import theme from '@marigold/theme-core';
 
 export const App = () => (
   <MarigoldProvider theme={theme}>
