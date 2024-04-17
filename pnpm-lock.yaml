@@ -9,20 +9,20 @@ importers:
   .:
     dependencies:
       '@marigold/components':
-        specifier: 7.5.4
-        version: 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 7.6.0
+        version: 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@marigold/icons':
         specifier: ^1.2.44
         version: 1.2.44(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@marigold/system':
-        specifier: 7.5.4
-        version: 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 7.6.0
+        version: 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@marigold/theme-b2b':
-        specifier: 27.1.4
-        version: 27.1.4(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
+        specifier: 27.1.5
+        version: 27.1.5(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
       '@marigold/theme-core':
-        specifier: 26.1.4
-        version: 26.1.4(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
+        specifier: 26.1.5
+        version: 26.1.5(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -362,8 +362,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@marigold/components@7.5.4':
-    resolution: {integrity: sha512-AWv9w/YxIRwUcuiogrol7wosaxQ7GL/JBhLR1FbkasCnuw4TxmlJ10/aNA6vHGghKVaUBvP/RFzyJJBiv5b6FQ==}
+  '@marigold/components@7.6.0':
+    resolution: {integrity: sha512-AWtY/pODbzZFfVVJB3xcf9mAYL+RXvoXo6ViAWaKDd55Est+Us1ndVD25N9JvKRvHHcMf+I/FhzYZoESw/7Gmw==}
     peerDependencies:
       react: 17.x || 18.x
       react-dom: 17.x || 18.x
@@ -373,20 +373,31 @@ packages:
     peerDependencies:
       react: 17.x || 18.x
 
+  '@marigold/icons@1.2.45':
+    resolution: {integrity: sha512-1F/0LN0U28iVAZuL9umk9eltKy2jh2R1juq4AVLDIY2K8sKwlaT6mUeCQ8uOD+Hz9vdjoTQDtvqC0Dgm60sgYw==}
+    peerDependencies:
+      react: 17.x || 18.x
+
   '@marigold/system@7.5.4':
     resolution: {integrity: sha512-40BQeK5lNzt9VNsMlElfq1djbsgmE98zs8Cd2jTzA3WbsVUYgWp/km4WiCulfaY1xokfDNoo8Lw1r4b4ix2Mig==}
     peerDependencies:
       react: 16.x || 17.x || 18.x
       react-dom: 16.x || 17.x || 18.x
 
-  '@marigold/theme-b2b@27.1.4':
-    resolution: {integrity: sha512-iObPTDH7FwJknV1S6Q1srPVU46kfuIoXmdpEXsBFOByfUiKQZ2z2nJ2nWy+9wSf5LNmU+SaHWyRA4QUVOVQEig==}
+  '@marigold/system@7.6.0':
+    resolution: {integrity: sha512-TfC9mUzdvQ/vCNnefVBvMWVJc46Oi3Wf1ravKef3cVQQZvn5p4QRkPiLd3JKVxlFLURfq/MqO/iUbBsCEqehwQ==}
+    peerDependencies:
+      react: 16.x || 17.x || 18.x
+      react-dom: 16.x || 17.x || 18.x
 
-  '@marigold/theme-core@26.1.4':
-    resolution: {integrity: sha512-NqhlDG4jiz1JQnwQGElDRX41Vsx0hCkE8d8Hsmn/muaOkyhCQELNps9OTbhE1uSfEiFHD36J75RR2zfbTC2luw==}
+  '@marigold/theme-b2b@27.1.5':
+    resolution: {integrity: sha512-gTPetCxk59CHEBmDpqiKYH47dXHzQIqDgwChdguJR1KxTDpAD+uvfVjFFzg5w/0GjFt6mzOz0Bdg7rzT0NfYMQ==}
 
-  '@marigold/theme-preset@1.3.9':
-    resolution: {integrity: sha512-ppMSaDCF5Tx/gXiUZFgVG5AUr9uNbxp3Ugltv9ll5n8Ggaq6f3bmfbZqzcvKqfM2C/GvYYd7K4NCpb7LDDyMpA==}
+  '@marigold/theme-core@26.1.5':
+    resolution: {integrity: sha512-DdxYeqchXzxMbRx9GDZCtMeDhzTG/0GtASHrA4cmZAWsHH+1mkAfpi+XAB4MJsiSC57hWYZQHqmvTREHDP6gCA==}
+
+  '@marigold/theme-preset@1.3.10':
+    resolution: {integrity: sha512-1vepcyXZu+Ch4JJPLOFLp+TO89+YgO0Cg5+8bP5DhePgFJrLTH5ELAh2tWfLOPIcvdJnFYniSZnc3SNJUDy7XQ==}
     peerDependencies:
       postcss: 8.4.35
       tailwindcss: 3.4.1
@@ -1928,11 +1939,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@marigold/components@7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@marigold/components@7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@internationalized/date': 3.5.2
-      '@marigold/icons': 1.2.44(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@marigold/system': 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/icons': 1.2.45(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/system': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@marigold/types': 1.1.0(@types/react@18.2.78)
       '@react-aria/accordion': 3.0.0-alpha.27(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@react-aria/button': 3.9.3(react@18.2.0)
@@ -1966,6 +1977,14 @@ snapshots:
       - '@types/react'
       - react-dom
 
+  '@marigold/icons@1.2.45(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      '@marigold/system': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react: 18.2.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+
   '@marigold/system@7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@marigold/types': 1.1.0(@types/react@18.2.78)
@@ -1979,11 +1998,24 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/theme-b2b@27.1.4(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)':
+  '@marigold/system@7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@marigold/components': 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@marigold/system': 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@marigold/theme-preset': 1.3.9(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
+      '@marigold/types': 1.1.0(@types/react@18.2.78)
+      '@react-aria/i18n': 3.10.2(react@18.2.0)
+      class-variance-authority: 0.7.0
+      deepmerge: 4.3.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.2.1
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@marigold/theme-b2b@27.1.5(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)':
+    dependencies:
+      '@marigold/components': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/system': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/theme-preset': 1.3.10(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -1991,11 +2023,11 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@marigold/theme-core@26.1.4(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)':
+  '@marigold/theme-core@26.1.5(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)':
     dependencies:
-      '@marigold/components': 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@marigold/system': 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@marigold/theme-preset': 1.3.9(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
+      '@marigold/components': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/system': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/theme-preset': 1.3.10(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -2003,9 +2035,9 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@marigold/theme-preset@1.3.9(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)':
+  '@marigold/theme-preset@1.3.10(@types/react@18.2.78)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(tailwindcss@3.4.3)':
     dependencies:
-      '@marigold/system': 7.5.4(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@marigold/system': 7.6.0(@types/react@18.2.78)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       deepmerge: 4.3.1
       postcss: 8.4.38
       tailwindcss: 3.4.3
