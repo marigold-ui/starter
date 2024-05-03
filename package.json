@@ -22,11 +22,11 @@
     "vite": "5.2.10"
   },
   "dependencies": {
-    "@marigold/components": "7.6.0",
+    "@marigold/components": "7.7.0",
     "@marigold/icons": "^1.2.44",
-    "@marigold/system": "7.6.0",
-    "@marigold/theme-b2b": "27.1.5",
-    "@marigold/theme-core": "26.1.5",
+    "@marigold/system": "7.7.0",
+    "@marigold/theme-b2b": "27.1.6",
+    "@marigold/theme-core": "26.1.6",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
