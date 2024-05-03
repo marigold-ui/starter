@@ -11,8 +11,8 @@
   "license": "MIT",
   "homepage": "https://github.com/marigold-ui/starter#readme",
   "devDependencies": {
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react": "4.2.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
@@ -27,8 +27,8 @@
     "@marigold/system": "7.6.0",
     "@marigold/theme-b2b": "27.1.5",
     "@marigold/theme-core": "26.1.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "scripts": {
     "dev": "vite",
