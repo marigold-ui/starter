@@ -13,7 +13,7 @@ importers:
         version: 7.7.1(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@marigold/icons':
         specifier: ^1.2.44
-        version: 1.2.47(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 1.2.48(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@marigold/system':
         specifier: 7.7.1
         version: 7.7.1(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -373,8 +373,19 @@ packages:
     peerDependencies:
       react: 18.x
 
+  '@marigold/icons@1.2.48':
+    resolution: {integrity: sha512-wMWjATSGiPeR7zlmPpSXe+2flROwyEAdAPl1N6a81SYSfvRqerH1TizclYSJQJj+PcC8A0aY5VkleDjLOWPuow==}
+    peerDependencies:
+      react: 18.x
+
   '@marigold/system@7.7.1':
     resolution: {integrity: sha512-9BK0I6cyO94t/xleP7+1LFf3md8LGxdYK5TdLkeGtxj+wwkOGH7mVk6J33I6RKC0zb5sLZKJy7Ew7RAkXAXZpQ==}
+    peerDependencies:
+      react: 18.x
+      react-dom: 18.x
+
+  '@marigold/system@7.7.2':
+    resolution: {integrity: sha512-JNW5RbybnbLhlGROSVbfCmSQlyEGrQkXJ2kKbzvO5WGpwwJAd5caj1OLNIQ2h4q+5Nv9BKk3DllhN4tXfciKFg==}
     peerDependencies:
       react: 18.x
       react-dom: 18.x
@@ -1992,7 +2003,28 @@ snapshots:
       - '@types/react'
       - react-dom
 
+  '@marigold/icons@1.2.48(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@marigold/system': 7.7.2(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+
   '@marigold/system@7.7.1(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@marigold/types': 1.1.0(@types/react@18.3.2)
+      '@react-aria/i18n': 3.11.0(react@18.3.1)
+      class-variance-authority: 0.7.0
+      deepmerge: 4.2.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-fast-compare: 3.2.0
+      tailwind-merge: 2.2.1
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@marigold/system@7.7.2(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@marigold/types': 1.1.0(@types/react@18.3.2)
       '@react-aria/i18n': 3.11.0(react@18.3.1)
