@@ -16,10 +16,10 @@ dependencies:
     version: 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/theme-b2b':
     specifier: 27.1.11
-    version: 27.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3)
+    version: 27.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4)
   '@marigold/theme-core':
     specifier: 26.1.11
-    version: 26.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3)
+    version: 26.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -48,7 +48,7 @@ devDependencies:
     version: 0.11.10
   tailwindcss:
     specifier: ^3.4.3
-    version: 3.4.3
+    version: 3.4.4
   typescript:
     specifier: 5.4.5
     version: 5.4.5
@@ -658,12 +658,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/theme-b2b@27.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3):
+  /@marigold/theme-b2b@27.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4):
     resolution: {integrity: sha512-VZu8vxBai4rFN+62kSRI58T/sJjmK687IaoJQOJ8M1mMVljmXqotizLs6AQNW+9GZuA0FqvNAjBvLFsnAs+32A==}
     dependencies:
       '@marigold/components': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
       '@marigold/system': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/theme-preset': 1.3.16(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3)
+      '@marigold/theme-preset': 1.3.16(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -672,12 +672,12 @@ packages:
       - tailwindcss
     dev: false
 
-  /@marigold/theme-core@26.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3):
+  /@marigold/theme-core@26.1.11(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4):
     resolution: {integrity: sha512-H5Wowdb8FWZy4HsD0vQVnzdMHGvgo1H9gXV7Q6x450z9Osj61rWMrz29yTuSNLfiqCC4EF4XcB4abpzGiM5Euw==}
     dependencies:
       '@marigold/components': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
       '@marigold/system': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/theme-preset': 1.3.16(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3)
+      '@marigold/theme-preset': 1.3.16(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -686,7 +686,7 @@ packages:
       - tailwindcss
     dev: false
 
-  /@marigold/theme-preset@1.3.16(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.3):
+  /@marigold/theme-preset@1.3.16(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4):
     resolution: {integrity: sha512-APv5cUv6cgpHU8xkp6HcL4GEsh+4P8mFixyEwDuhuPq/M6Tnt2S1yCiWgTXCcp5lxgmRNpVH0rcaKy9WR7bZ4g==}
     peerDependencies:
       postcss: 8.4.x
@@ -695,8 +695,8 @@ packages:
       '@marigold/system': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
       deepmerge: 4.3.1
       postcss: 8.4.38
-      tailwindcss: 3.4.3
-      tailwindcss-react-aria-components: 1.1.1(tailwindcss@3.4.3)
+      tailwindcss: 3.4.4
+      tailwindcss-react-aria-components: 1.1.1(tailwindcss@3.4.4)
     transitivePeerDependencies:
       - '@types/react'
       - react
@@ -2596,7 +2596,7 @@ packages:
     hasBin: true
     dependencies:
       foreground-child: 3.1.1
-      jackspeak: 3.1.2
+      jackspeak: 3.4.0
       minimatch: 9.0.4
       minipass: 7.1.2
       path-scurry: 1.11.1
@@ -2658,16 +2658,16 @@ packages:
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  /jackspeak@3.1.2:
-    resolution: {integrity: sha512-kWmLKn2tRtfYMF/BakihVVRzBKOxz4gJMiL2Rj91WnAB5TPZumSH99R/Yf1qE1u4uRimvCSJfm6hnxohXeEXjQ==}
+  /jackspeak@3.4.0:
+    resolution: {integrity: sha512-JVYhQnN59LVPFCEcVa2C3CrEKYacvjRfqIQl+h8oi91aLYQVWRYbxjPcv1bUiUy/kLmQaANrYfNMCO3kuEDHfw==}
     engines: {node: '>=14'}
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  /jiti@1.21.0:
-    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
+  /jiti@1.21.3:
+    resolution: {integrity: sha512-uy2bNX5zQ+tESe+TiC7ilGRz8AtRGmnJH55NC5S0nSUjvvvM2hJHmefHErugGXN4pNv4Qx7vLsnNw9qJ9mtIsw==}
     hasBin: true
 
   /js-tokens@4.0.0:
@@ -2834,7 +2834,7 @@ packages:
     dependencies:
       lilconfig: 3.1.1
       postcss: 8.4.38
-      yaml: 2.4.2
+      yaml: 2.4.4
 
   /postcss-nested@6.0.1(postcss@8.4.38):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
@@ -3153,16 +3153,16 @@ packages:
       '@babel/runtime': 7.24.6
     dev: false
 
-  /tailwindcss-react-aria-components@1.1.1(tailwindcss@3.4.3):
+  /tailwindcss-react-aria-components@1.1.1(tailwindcss@3.4.4):
     resolution: {integrity: sha512-ig2pJOz4Gb10uYbGrFiIb5Fs3hUlZ5fTaNfDmLMofVhwXLpyOY+swaSBNg3XzS0ccQHgag3vXxIuHQXVetKYQg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.4.3
+      tailwindcss: 3.4.4
     dev: false
 
-  /tailwindcss@3.4.3:
-    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
+  /tailwindcss@3.4.4:
+    resolution: {integrity: sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3174,7 +3174,7 @@ packages:
       fast-glob: 3.3.2
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.21.0
+      jiti: 1.21.3
       lilconfig: 2.1.0
       micromatch: 4.0.7
       normalize-path: 3.0.0
@@ -3315,7 +3315,7 @@ packages:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
     dev: true
 
-  /yaml@2.4.2:
-    resolution: {integrity: sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==}
+  /yaml@2.4.4:
+    resolution: {integrity: sha512-wle6DEiBMLgJAdEPZ+E8BPFauoWbwPujfuGJJFErxYiU4txXItppe8YqeFPAaWnW5CxduQ995X6b5e1NqrmxtA==}
     engines: {node: '>= 14'}
     hasBin: true
