@@ -10,7 +10,7 @@ dependencies:
     version: 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/icons':
     specifier: ^1.2.44
-    version: 1.2.51(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+    version: 1.2.52(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/system':
     specifier: 7.8.2
     version: 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
@@ -250,6 +250,13 @@ packages:
 
   /@babel/runtime@7.24.6:
     resolution: {integrity: sha512-Ja18XcETdEl5mzzACGd+DKgaGJzPTCow7EglgwTmHdwokzDFYh/MHua6lU6DV/hjF2IaOJ4oX2nqnjG7RElKOw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.14.1
+    dev: false
+
+  /@babel/runtime@7.24.7:
+    resolution: {integrity: sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
@@ -640,6 +647,18 @@ packages:
       - react-dom
     dev: false
 
+  /@marigold/icons@1.2.52(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-FVBsYndAkJxfoae8BgyrDQE631oMid6kN2vYqOisRyR9vR/hvx9TqHdFdueXrfj+0ZuqLAgTMq7/jrgPVhI6iw==}
+    peerDependencies:
+      react: 18.x
+    dependencies:
+      '@marigold/system': 8.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: false
+
   /@marigold/system@7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-InAfzDQ2N6xZ+DRQfYiDGkpZyntjwbiIXNwobf8J4hJeJh/ZAPCfoOzo47RpEV/NI+CeLA1ezZeKaucqa5sdhg==}
     peerDependencies:
@@ -654,6 +673,24 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
       react-fast-compare: 3.2.0
       tailwind-merge: 2.2.1
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
+  /@marigold/system@8.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-njR4bkSH7oz1PyaiZV8Jx/mYbn9QbVG0cNJezZsqbltobI58y+KeYU6YDQ01D9Fc1HQehBmqgfbOOe/n2iCgZA==}
+    peerDependencies:
+      react: 18.x
+      react-dom: 18.x
+    dependencies:
+      '@marigold/types': 1.1.1(@types/react@18.3.3)
+      '@react-aria/i18n': 3.11.1(react@18.3.1)
+      class-variance-authority: 0.7.0
+      deepmerge: 4.2.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.3.0
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -710,6 +747,15 @@ packages:
     dependencies:
       '@types/react': 18.3.3
       type-fest: 4.2.0
+    dev: false
+
+  /@marigold/types@1.1.1(@types/react@18.3.3):
+    resolution: {integrity: sha512-xMKHDRDAzCAlhbUmCrokrbALhN9WOKZlObLRJ0YOX3wcmeiadTcJtObCMJ+n1wg/+kKYWFpip/z6P2ZODODzgg==}
+    peerDependencies:
+      '@types/react': 18.x
+    dependencies:
+      '@types/react': 18.3.3
+      type-fest: 4.20.1
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
@@ -2965,6 +3011,10 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: false
 
+  /react-fast-compare@3.2.2:
+    resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
+    dev: false
+
   /react-refresh@0.14.2:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
     engines: {node: '>=0.10.0'}
@@ -3153,6 +3203,12 @@ packages:
       '@babel/runtime': 7.24.6
     dev: false
 
+  /tailwind-merge@2.3.0:
+    resolution: {integrity: sha512-vkYrLpIP+lgR0tQCG6AP7zZXCTLc1Lnv/CCRT3BqJ9CZ3ui2++GPaGb1x/ILsINIMSYqqvrpqjUFsMNLlW99EA==}
+    dependencies:
+      '@babel/runtime': 7.24.7
+    dev: false
+
   /tailwindcss-react-aria-components@1.1.1(tailwindcss@3.4.4):
     resolution: {integrity: sha512-ig2pJOz4Gb10uYbGrFiIb5Fs3hUlZ5fTaNfDmLMofVhwXLpyOY+swaSBNg3XzS0ccQHgag3vXxIuHQXVetKYQg==}
     peerDependencies:
@@ -3222,6 +3278,11 @@ packages:
 
   /type-fest@4.2.0:
     resolution: {integrity: sha512-5zknd7Dss75pMSED270A1RQS3KloqRJA9XbXLe0eCxyw7xXFb3rd+9B0UQ/0E+LQT6lnrLviEolYORlRWamn4w==}
+    engines: {node: '>=16'}
+    dev: false
+
+  /type-fest@4.20.1:
+    resolution: {integrity: sha512-R6wDsVsoS9xYOpy8vgeBlqpdOyzJ12HNfQhC/aAKWM3YoCV9TtunJzh/QpkMgeDhkoynDcw5f1y+qF9yc/HHyg==}
     engines: {node: '>=16'}
     dev: false
 
