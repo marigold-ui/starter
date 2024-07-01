@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@marigold/components':
-    specifier: 7.8.2
-    version: 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 8.0.0
+    version: 8.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/icons':
     specifier: ^1.2.44
     version: 1.2.52(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/system':
-    specifier: 7.8.2
-    version: 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 8.0.0
+    version: 8.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/theme-b2b':
     specifier: 27.1.12
     version: 27.1.12(@types/react@18.3.3)(postcss@8.4.38)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.4)
@@ -593,41 +593,6 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@marigold/components@7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-m6ZUSCZc0IgD57E3GkT2qiHOZIdezAw3beH3sUjUE8F6EOnNXcseiBB42MqAzDlnipq1UcPCLIlgPh84lB2pgA==}
-    peerDependencies:
-      react: 18.x
-      react-dom: 18.x
-    dependencies:
-      '@internationalized/date': 3.5.4
-      '@marigold/icons': 1.2.51(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/system': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/types': 1.1.0(@types/react@18.3.3)
-      '@react-aria/accordion': 3.0.0-alpha.29(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/button': 3.9.5(react@18.3.1)
-      '@react-aria/calendar': 3.5.8(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/focus': 3.17.1(react@18.3.1)
-      '@react-aria/i18n': 3.11.1(react@18.3.1)
-      '@react-aria/interactions': 3.21.3(react@18.3.1)
-      '@react-aria/overlays': 3.22.1(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/selection': 3.18.1(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/ssr': 3.9.4(react@18.3.1)
-      '@react-aria/table': 3.14.1(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/utils': 3.24.1(react@18.3.1)
-      '@react-aria/visually-hidden': 3.8.12(react@18.3.1)
-      '@react-stately/collections': 3.10.7(react@18.3.1)
-      '@react-stately/data': 3.11.4(react@18.3.1)
-      '@react-stately/table': 3.11.8(react@18.3.1)
-      '@react-stately/tree': 3.8.1(react@18.3.1)
-      '@react-types/shared': 3.23.1(react@18.3.1)
-      '@react-types/table': 3.9.5(react@18.3.1)
-      react: 18.3.1
-      react-aria-components: 1.2.1(react-dom@18.3.1)(react@18.3.1)
-      react-dom: 18.3.1(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
   /@marigold/components@8.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-R41G6BZszPcByqQnCL+3pl5Sd30WZ09oqdvZ9SNHj2pUyf21apPcKueLHtzj4rP0FoCVWrDFqNzJWSwWoxZaew==}
     peerDependencies:
@@ -663,18 +628,6 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.51(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-nrm65BXe8t9mvQUPlbaTPP6y++yPSeb5H0aeSiw7nj8FY3odhksyER14ctMAseVwdcm/ze3HAXZKrQZPt09Kag==}
-    peerDependencies:
-      react: 18.x
-    dependencies:
-      '@marigold/system': 7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-    transitivePeerDependencies:
-      - '@types/react'
-      - react-dom
-    dev: false
-
   /@marigold/icons@1.2.52(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-FVBsYndAkJxfoae8BgyrDQE631oMid6kN2vYqOisRyR9vR/hvx9TqHdFdueXrfj+0ZuqLAgTMq7/jrgPVhI6iw==}
     peerDependencies:
@@ -685,24 +638,6 @@ packages:
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
-    dev: false
-
-  /@marigold/system@7.8.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-InAfzDQ2N6xZ+DRQfYiDGkpZyntjwbiIXNwobf8J4hJeJh/ZAPCfoOzo47RpEV/NI+CeLA1ezZeKaucqa5sdhg==}
-    peerDependencies:
-      react: 18.x
-      react-dom: 18.x
-    dependencies:
-      '@marigold/types': 1.1.0(@types/react@18.3.3)
-      '@react-aria/i18n': 3.11.1(react@18.3.1)
-      class-variance-authority: 0.7.0
-      deepmerge: 4.2.2
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-fast-compare: 3.2.0
-      tailwind-merge: 2.2.1
-    transitivePeerDependencies:
-      - '@types/react'
     dev: false
 
   /@marigold/system@8.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
@@ -766,15 +701,6 @@ packages:
       - '@types/react'
       - react
       - react-dom
-    dev: false
-
-  /@marigold/types@1.1.0(@types/react@18.3.3):
-    resolution: {integrity: sha512-DXS9FPaHErS+aAGL5VoTD4c3UhTk780nzKsLCzVvGnNXqyln5hD0yMpqWyYwrIcSZtOrbHPbtGsF6nzROFpkdw==}
-    peerDependencies:
-      '@types/react': 18.x
-    dependencies:
-      '@types/react': 18.3.3
-      type-fest: 4.2.0
     dev: false
 
   /@marigold/types@1.1.1(@types/react@18.3.3):
@@ -3035,10 +2961,6 @@ packages:
       scheduler: 0.23.2
     dev: false
 
-  /react-fast-compare@3.2.0:
-    resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
-    dev: false
-
   /react-fast-compare@3.2.2:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
@@ -3225,12 +3147,6 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /tailwind-merge@2.2.1:
-    resolution: {integrity: sha512-o+2GTLkthfa5YUt4JxPfzMIpQzZ3adD1vLVkvKE1Twl9UAhGsEbIZhHHZVRttyW177S8PDJI3bTQNaebyofK3Q==}
-    dependencies:
-      '@babel/runtime': 7.24.7
-    dev: false
-
   /tailwind-merge@2.3.0:
     resolution: {integrity: sha512-vkYrLpIP+lgR0tQCG6AP7zZXCTLc1Lnv/CCRT3BqJ9CZ3ui2++GPaGb1x/ILsINIMSYqqvrpqjUFsMNLlW99EA==}
     dependencies:
@@ -3302,11 +3218,6 @@ packages:
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
-    dev: false
-
-  /type-fest@4.2.0:
-    resolution: {integrity: sha512-5zknd7Dss75pMSED270A1RQS3KloqRJA9XbXLe0eCxyw7xXFb3rd+9B0UQ/0E+LQT6lnrLviEolYORlRWamn4w==}
-    engines: {node: '>=16'}
     dev: false
 
   /type-fest@4.20.1:
