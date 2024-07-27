@@ -26,8 +26,8 @@
     "@marigold/components": "8.0.2",
     "@marigold/icons": "^1.2.44",
     "@marigold/system": "8.0.2",
-    "@marigold/theme-b2b": "27.1.14",
-    "@marigold/theme-core": "26.1.14",
+    "@marigold/theme-b2b": "27.1.15",
+    "@marigold/theme-core": "26.1.15",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
