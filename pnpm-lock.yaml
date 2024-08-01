@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@marigold/components':
-    specifier: 8.0.2
-    version: 8.0.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 9.0.0
+    version: 9.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/icons':
     specifier: ^1.2.44
     version: 1.2.55(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/system':
-    specifier: 8.0.2
-    version: 8.0.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 9.0.0
+    version: 9.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/theme-b2b':
     specifier: 27.1.15
     version: 27.1.15(@types/react@18.3.3)(postcss@8.4.40)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.7)
@@ -593,41 +593,6 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  /@marigold/components@8.0.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-77LlzKOsTSP5beBvX+wPUSqg3wQftOCYfy3bhEgCdl6DJ0qwQPQkHyeAyvHuyn/KqzKuI4RbZm47zcKkxtHaPg==}
-    peerDependencies:
-      react: 18.x
-      react-dom: 18.x
-    dependencies:
-      '@internationalized/date': 3.5.4
-      '@marigold/icons': 1.2.54(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/system': 8.0.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/types': 1.1.1(@types/react@18.3.3)
-      '@react-aria/accordion': 3.0.0-alpha.29(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/button': 3.9.5(react@18.3.1)
-      '@react-aria/calendar': 3.5.8(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/focus': 3.17.1(react@18.3.1)
-      '@react-aria/i18n': 3.11.1(react@18.3.1)
-      '@react-aria/interactions': 3.21.3(react@18.3.1)
-      '@react-aria/overlays': 3.22.1(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/selection': 3.18.1(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/ssr': 3.9.4(react@18.3.1)
-      '@react-aria/table': 3.14.1(react-dom@18.3.1)(react@18.3.1)
-      '@react-aria/utils': 3.24.1(react@18.3.1)
-      '@react-aria/visually-hidden': 3.8.12(react@18.3.1)
-      '@react-stately/collections': 3.10.7(react@18.3.1)
-      '@react-stately/data': 3.11.4(react@18.3.1)
-      '@react-stately/table': 3.11.8(react@18.3.1)
-      '@react-stately/tree': 3.8.1(react@18.3.1)
-      '@react-types/shared': 3.23.1(react@18.3.1)
-      '@react-types/table': 3.9.5(react@18.3.1)
-      react: 18.3.1
-      react-aria-components: 1.2.1(react-dom@18.3.1)(react@18.3.1)
-      react-dom: 18.3.1(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
   /@marigold/components@9.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-VB6L26Sa+fly0oICJE775rnMAF+GsYu4bfKjLaD7weTbLClMHskiC+wjrf/eGlPh0zJ76fiAQAUq6O4djbX2+Q==}
     peerDependencies:
@@ -663,18 +628,6 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.54(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-5/MNizJTo4I99q038RR4SwKlOQsWZM5+t/G7OgnHPbhOEvYZTgDJhGQmEuFhJ9RsZDm1Ek/JdBZr/JIuPY5apQ==}
-    peerDependencies:
-      react: 18.x
-    dependencies:
-      '@marigold/system': 8.0.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-    transitivePeerDependencies:
-      - '@types/react'
-      - react-dom
-    dev: false
-
   /@marigold/icons@1.2.55(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-DU9FMh+97vUT4sHQ0n3sQRUM3+SLp6dDDDDcZDhCanuUgG41m+Q2AJcww83WJuLhVo/kngN7VE6VJ7LX5MYJAA==}
     peerDependencies:
@@ -685,24 +638,6 @@ packages:
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
-    dev: false
-
-  /@marigold/system@8.0.2(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-x7MlPJatfI6eal9LeEhUmAdnTpZIrEKMTA52EBAnT/5BvJHtZHXoTIyGz8iCzM53NXrTN71G6dZbz+kN+58uqQ==}
-    peerDependencies:
-      react: 18.x
-      react-dom: 18.x
-    dependencies:
-      '@marigold/types': 1.1.1(@types/react@18.3.3)
-      '@react-aria/i18n': 3.11.1(react@18.3.1)
-      class-variance-authority: 0.7.0
-      deepmerge: 4.2.2
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-fast-compare: 3.2.2
-      tailwind-merge: 2.3.0
-    transitivePeerDependencies:
-      - '@types/react'
     dev: false
 
   /@marigold/system@9.0.0(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
