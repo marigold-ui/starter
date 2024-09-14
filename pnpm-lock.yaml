@@ -10,7 +10,7 @@ dependencies:
     version: 9.0.1(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/icons':
     specifier: ^1.2.44
-    version: 1.2.56(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1)
+    version: 1.2.57(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/system':
     specifier: 9.0.1
     version: 9.0.1(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1)
@@ -633,6 +633,18 @@ packages:
       - react-dom
     dev: false
 
+  /@marigold/icons@1.2.57(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-vJokqARwwAqwZuJERKP2GKJMT/A+EUMo0gZeTbmSkCbZViZfGyhH2Oq2zRbFC2/wl897ewva/V7eJEQJGHTd3w==}
+    peerDependencies:
+      react: 18.x
+    dependencies:
+      '@marigold/system': 9.0.2(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: false
+
   /@marigold/system@9.0.1(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-1tKtATRTna6UzSUrLcoctpJM7ccAtJmAT/uX/vPbSl8Glj5OOfazBwiJju+YTIWMTVAuKx+STRRku2C+cKjxlw==}
     peerDependencies:
@@ -647,6 +659,24 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
       react-fast-compare: 3.2.2
       tailwind-merge: 2.4.0
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
+  /@marigold/system@9.0.2(@types/react@18.3.5)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-OjJPbBgSzevn7TrEsO6wiYW3oyss6rgRJeZV+hytrG2etW7vpu6dSF5Qkgd3QKSF2fpJjNNTAeMJLw0VAbNIZQ==}
+    peerDependencies:
+      react: 18.x
+      react-dom: 18.x
+    dependencies:
+      '@marigold/types': 1.1.1(@types/react@18.3.5)
+      '@react-aria/i18n': 3.12.2(react@18.3.1)
+      class-variance-authority: 0.7.0
+      deepmerge: 4.3.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.5.2
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -1024,6 +1054,22 @@ packages:
       '@react-aria/utils': 3.25.1(react@18.3.1)
       '@react-types/shared': 3.24.1(react@18.3.1)
       '@swc/helpers': 0.5.12
+      react: 18.3.1
+    dev: false
+
+  /@react-aria/i18n@3.12.2(react@18.3.1):
+    resolution: {integrity: sha512-PvEyC6JWylTpe8dQEWqQwV6GiA+pbTxHQd//BxtMSapRW3JT9obObAnb/nFhj3HthkUvqHyj0oO1bfeN+mtD8A==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@internationalized/date': 3.5.5
+      '@internationalized/message': 3.1.4
+      '@internationalized/number': 3.5.3
+      '@internationalized/string': 3.2.3
+      '@react-aria/ssr': 3.9.5(react@18.3.1)
+      '@react-aria/utils': 3.25.2(react@18.3.1)
+      '@react-types/shared': 3.24.1(react@18.3.1)
+      '@swc/helpers': 0.5.13
       react: 18.3.1
     dev: false
 
@@ -1476,6 +1522,19 @@ packages:
       react: 18.3.1
     dev: false
 
+  /@react-aria/utils@3.25.2(react@18.3.1):
+    resolution: {integrity: sha512-GdIvG8GBJJZygB4L2QJP1Gabyn2mjFsha73I2wSe+o4DYeGWoJiMZRM06PyTIxLH4S7Sn7eVDtsSBfkc2VY/NA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@react-aria/ssr': 3.9.5(react@18.3.1)
+      '@react-stately/utils': 3.10.3(react@18.3.1)
+      '@react-types/shared': 3.24.1(react@18.3.1)
+      '@swc/helpers': 0.5.13
+      clsx: 2.1.1
+      react: 18.3.1
+    dev: false
+
   /@react-aria/virtualizer@4.0.1(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-JZ6X0l38ZwBU/JgeLwkDA8mknRxqO1nYSVaPZHgOg8fd9BzMRWBjse7VW+Uf09P0uAEFElwlB+RY8UDx+W/Fmg==}
     peerDependencies:
@@ -1837,6 +1896,15 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
     dependencies:
       '@swc/helpers': 0.5.12
+      react: 18.3.1
+    dev: false
+
+  /@react-stately/utils@3.10.3(react@18.3.1):
+    resolution: {integrity: sha512-moClv7MlVSHpbYtQIkm0Cx+on8Pgt1XqtPx6fy9rQFb2DNc9u1G3AUVnqA17buOkH1vLxAtX4MedlxMWyRCYYA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@swc/helpers': 0.5.13
       react: 18.3.1
     dev: false
 
@@ -2245,6 +2313,12 @@ packages:
     resolution: {integrity: sha512-KMZNXiGibsW9kvZAO1Pam2JPTDBm+KSHMMHWdsyI/1DbIZjT2A6Gy3hblVXUMEDvUAKq+e0vL0X0o54owWji7g==}
     dependencies:
       tslib: 2.6.3
+    dev: false
+
+  /@swc/helpers@0.5.13:
+    resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
+    dependencies:
+      tslib: 2.7.0
     dev: false
 
   /@types/babel__core@7.20.5:
@@ -3191,6 +3265,10 @@ packages:
     resolution: {integrity: sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==}
     dev: false
 
+  /tailwind-merge@2.5.2:
+    resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
+    dev: false
+
   /tailwindcss-react-aria-components@1.1.4(tailwindcss@3.4.10):
     resolution: {integrity: sha512-Nu425m0jUJ8yFpM29YpJSTEsEZCo5LNKPmOqEoc5bSqu3Y9vT2oEEXALKkaXu4Ay4y1MQxX6EVdCzPcstg6S7A==}
     peerDependencies:
@@ -3256,6 +3334,10 @@ packages:
 
   /tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+    dev: false
+
+  /tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
     dev: false
 
   /type-fest@4.20.1:
