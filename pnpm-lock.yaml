@@ -10,7 +10,7 @@ dependencies:
     version: 9.0.2(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/icons':
     specifier: ^1.2.44
-    version: 1.2.57(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
+    version: 1.2.58(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/system':
     specifier: 9.0.2
     version: 9.0.2(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
@@ -475,10 +475,24 @@ packages:
       tslib: 2.7.0
     dev: false
 
+  /@formatjs/ecma402-abstract@2.2.1:
+    resolution: {integrity: sha512-O4ywpkdJybrjFc9zyL8qK5aklleIAi5O4nYhBVJaOFtCkNrnU+lKFeJOFC48zpsZQmR8Aok2V79hGpHnzbmFpg==}
+    dependencies:
+      '@formatjs/fast-memoize': 2.2.2
+      '@formatjs/intl-localematcher': 0.5.6
+      tslib: 2.8.0
+    dev: false
+
   /@formatjs/fast-memoize@2.2.0:
     resolution: {integrity: sha512-hnk/nY8FyrL5YxwP9e4r9dqeM6cAbo8PeU9UjyXojZMNvVad2Z06FAVHyR3Ecw6fza+0GH7vdJgiKIVXTMbSBA==}
     dependencies:
       tslib: 2.7.0
+    dev: false
+
+  /@formatjs/fast-memoize@2.2.2:
+    resolution: {integrity: sha512-mzxZcS0g1pOzwZTslJOBTmLzDXseMLLvnh25ymRilCm8QLMObsQ7x/rj9GNrH0iUhZMlFisVOD6J1n6WQqpKPQ==}
+    dependencies:
+      tslib: 2.8.0
     dev: false
 
   /@formatjs/icu-messageformat-parser@2.7.8:
@@ -489,11 +503,26 @@ packages:
       tslib: 2.7.0
     dev: false
 
+  /@formatjs/icu-messageformat-parser@2.9.1:
+    resolution: {integrity: sha512-7AYk4tjnLi5wBkxst2w7qFj38JLMJoqzj7BhdEl7oTlsWMlqwgx4p9oMmmvpXWTSDGNwOKBRc1SfwMh5MOHeNg==}
+    dependencies:
+      '@formatjs/ecma402-abstract': 2.2.1
+      '@formatjs/icu-skeleton-parser': 1.8.5
+      tslib: 2.8.0
+    dev: false
+
   /@formatjs/icu-skeleton-parser@1.8.2:
     resolution: {integrity: sha512-k4ERKgw7aKGWJZgTarIcNEmvyTVD9FYh0mTrrBMHZ1b8hUu6iOJ4SzsZlo3UNAvHYa+PnvntIwRPt1/vy4nA9Q==}
     dependencies:
       '@formatjs/ecma402-abstract': 2.0.0
       tslib: 2.7.0
+    dev: false
+
+  /@formatjs/icu-skeleton-parser@1.8.5:
+    resolution: {integrity: sha512-zRZ/e3B5qY2+JCLs7puTzWS1Jb+t/K+8Jur/gEZpA2EjWeLDE17nsx8thyo9P48Mno7UmafnPupV2NCJXX17Dg==}
+    dependencies:
+      '@formatjs/ecma402-abstract': 2.2.1
+      tslib: 2.8.0
     dev: false
 
   /@formatjs/intl-localematcher@0.5.4:
@@ -502,8 +531,20 @@ packages:
       tslib: 2.7.0
     dev: false
 
+  /@formatjs/intl-localematcher@0.5.6:
+    resolution: {integrity: sha512-roz1+Ba5e23AHX6KUAWmLEyTRZegM5YDuxuvkHCyK3RJddf/UXB2f+s7pOMm9ktfPGla0g+mQXOn5vsuYirnaA==}
+    dependencies:
+      tslib: 2.8.0
+    dev: false
+
   /@internationalized/date@3.5.5:
     resolution: {integrity: sha512-H+CfYvOZ0LTJeeLOqm19E3uj/4YjrmOFtBufDHPfvtI80hFAMqtrp7oCACpe4Cil5l8S0Qu/9dYfZc/5lY8WQQ==}
+    dependencies:
+      '@swc/helpers': 0.5.13
+    dev: false
+
+  /@internationalized/date@3.5.6:
+    resolution: {integrity: sha512-jLxQjefH9VI5P9UQuqB6qNKnvFt1Ky1TPIzHGsIlCi7sZZoMR8SdYbBGRvM0y+Jtb+ez4ieBzmiAUcpmPYpyOw==}
     dependencies:
       '@swc/helpers': 0.5.13
     dev: false
@@ -515,14 +556,33 @@ packages:
       intl-messageformat: 10.5.14
     dev: false
 
+  /@internationalized/message@3.1.5:
+    resolution: {integrity: sha512-hjEpLKFlYA3m5apldLqzHqw531qqfOEq0HlTWdfyZmcloWiUbWsYXD6YTiUmQmOtarthzhdjCAwMVrB8a4E7uA==}
+    dependencies:
+      '@swc/helpers': 0.5.13
+      intl-messageformat: 10.7.3
+    dev: false
+
   /@internationalized/number@3.5.3:
     resolution: {integrity: sha512-rd1wA3ebzlp0Mehj5YTuTI50AQEx80gWFyHcQu+u91/5NgdwBecO8BH6ipPfE+lmQ9d63vpB3H9SHoIUiupllw==}
     dependencies:
       '@swc/helpers': 0.5.13
     dev: false
 
+  /@internationalized/number@3.5.4:
+    resolution: {integrity: sha512-h9huwWjNqYyE2FXZZewWqmCdkw1HeFds5q4Siuoms3hUQC5iPJK3aBmkFZoDSLN4UD0Bl8G22L/NdHpeOr+/7A==}
+    dependencies:
+      '@swc/helpers': 0.5.13
+    dev: false
+
   /@internationalized/string@3.2.3:
     resolution: {integrity: sha512-9kpfLoA8HegiWTeCbR2livhdVeKobCnVv8tlJ6M2jF+4tcMqDo94ezwlnrUANBWPgd8U7OXIHCk2Ov2qhk4KXw==}
+    dependencies:
+      '@swc/helpers': 0.5.13
+    dev: false
+
+  /@internationalized/string@3.2.4:
+    resolution: {integrity: sha512-BcyadXPn89Ae190QGZGDUZPqxLj/xsP4U1Br1oSy8yfIjmpJ8cJtGYleaodqW/EmzFjwELtwDojLkf3FhV6SjA==}
     dependencies:
       '@swc/helpers': 0.5.13
     dev: false
@@ -610,6 +670,36 @@ packages:
       - react-dom
     dev: false
 
+  /@marigold/icons@1.2.58(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-mmnC8QB9NIvuq0jzui6P32mM7CkD+fxblFS8s0CDSVVi8yLo16uZvtO3c5omKQs2NPsNCi79B99OeFW6rSmEoA==}
+    peerDependencies:
+      react: 18.x
+    dependencies:
+      '@marigold/system': 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: false
+
+  /@marigold/system@10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-H4cCm2hTBeijV2InaqV1OeFC49p0X4nuYmfV8gKYqiHrq9wkJr9KcwWvFNTFJ2mbnjgvRfiqfwqdksqZHRjQiw==}
+    peerDependencies:
+      react: 18.x
+      react-dom: 18.x
+    dependencies:
+      '@marigold/types': 1.2.0(@types/react@18.3.12)
+      '@react-aria/i18n': 3.12.3(react@18.3.1)
+      class-variance-authority: 0.7.0
+      deepmerge: 4.3.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.5.4
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
   /@marigold/system@9.0.2(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-OjJPbBgSzevn7TrEsO6wiYW3oyss6rgRJeZV+hytrG2etW7vpu6dSF5Qkgd3QKSF2fpJjNNTAeMJLw0VAbNIZQ==}
     peerDependencies:
@@ -675,6 +765,15 @@ packages:
 
   /@marigold/types@1.1.1(@types/react@18.3.12):
     resolution: {integrity: sha512-xMKHDRDAzCAlhbUmCrokrbALhN9WOKZlObLRJ0YOX3wcmeiadTcJtObCMJ+n1wg/+kKYWFpip/z6P2ZODODzgg==}
+    peerDependencies:
+      '@types/react': 18.x
+    dependencies:
+      '@types/react': 18.3.12
+      type-fest: 4.20.1
+    dev: false
+
+  /@marigold/types@1.2.0(@types/react@18.3.12):
+    resolution: {integrity: sha512-4RI9+KdvoRo9W1JSlqvKT5ojf+Xp9G4O7vHrGbsBrKEFhQKlmG7wERzfmCl+bPfjZIljripz0/CFIIC/sKk2Jg==}
     peerDependencies:
       '@types/react': 18.x
     dependencies:
@@ -861,7 +960,7 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
     dependencies:
       '@internationalized/date': 3.5.5
-      '@internationalized/number': 3.5.3
+      '@internationalized/number': 3.5.4
       '@internationalized/string': 3.2.3
       '@react-aria/focus': 3.18.2(react@18.3.1)
       '@react-aria/form': 3.0.8(react@18.3.1)
@@ -1000,6 +1099,22 @@ packages:
       '@react-aria/ssr': 3.9.5(react@18.3.1)
       '@react-aria/utils': 3.25.2(react@18.3.1)
       '@react-types/shared': 3.24.1(react@18.3.1)
+      '@swc/helpers': 0.5.13
+      react: 18.3.1
+    dev: false
+
+  /@react-aria/i18n@3.12.3(react@18.3.1):
+    resolution: {integrity: sha512-0Tp/4JwnCVNKDfuknPF+/xf3/woOc8gUjTU2nCjO3mCVb4FU7KFtjxQ2rrx+6hpIVG6g+N9qfMjRa/ggVH0CJg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@internationalized/date': 3.5.6
+      '@internationalized/message': 3.1.5
+      '@internationalized/number': 3.5.4
+      '@internationalized/string': 3.2.4
+      '@react-aria/ssr': 3.9.6(react@18.3.1)
+      '@react-aria/utils': 3.25.3(react@18.3.1)
+      '@react-types/shared': 3.25.0(react@18.3.1)
       '@swc/helpers': 0.5.13
       react: 18.3.1
     dev: false
@@ -1286,6 +1401,16 @@ packages:
       react: 18.3.1
     dev: false
 
+  /@react-aria/ssr@3.9.6(react@18.3.1):
+    resolution: {integrity: sha512-iLo82l82ilMiVGy342SELjshuWottlb5+VefO3jOQqQRNYnJBFpUSadswDPbRimSgJUZuFwIEYs6AabkP038fA==}
+    engines: {node: '>= 12'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@swc/helpers': 0.5.13
+      react: 18.3.1
+    dev: false
+
   /@react-aria/switch@3.6.7(react@18.3.1):
     resolution: {integrity: sha512-yBNvKylhc3ZRQ0+7mD0mIenRRe+1yb8YaqMMZr8r3Bf87LaiFtQyhRFziq6ZitcwTJz5LEWjBihxbSVvUrf49w==}
     peerDependencies:
@@ -1453,6 +1578,19 @@ packages:
       react: 18.3.1
     dev: false
 
+  /@react-aria/utils@3.25.3(react@18.3.1):
+    resolution: {integrity: sha512-PR5H/2vaD8fSq0H/UB9inNbc8KDcVmW6fYAfSWkkn+OAdhTTMVKqXXrZuZBWyFfSD5Ze7VN6acr4hrOQm2bmrA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@react-aria/ssr': 3.9.6(react@18.3.1)
+      '@react-stately/utils': 3.10.4(react@18.3.1)
+      '@react-types/shared': 3.25.0(react@18.3.1)
+      '@swc/helpers': 0.5.13
+      clsx: 2.1.1
+      react: 18.3.1
+    dev: false
+
   /@react-aria/virtualizer@4.0.2(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-HNhpZl53UM2Z8g0DNvjAW7aZRwOReYgKRxdTF/IlYHNMLpdqWZinKwLbxZCsbgX3SCjdIGns90YhkMSKVpfrpw==}
     peerDependencies:
@@ -1522,7 +1660,7 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
     dependencies:
-      '@internationalized/number': 3.5.3
+      '@internationalized/number': 3.5.4
       '@internationalized/string': 3.2.3
       '@react-aria/i18n': 3.12.2(react@18.3.1)
       '@react-stately/form': 3.0.5(react@18.3.1)
@@ -1663,7 +1801,7 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
     dependencies:
-      '@internationalized/number': 3.5.3
+      '@internationalized/number': 3.5.4
       '@react-stately/form': 3.0.5(react@18.3.1)
       '@react-stately/utils': 3.10.3(react@18.3.1)
       '@react-types/numberfield': 3.8.5(react@18.3.1)
@@ -1810,6 +1948,15 @@ packages:
 
   /@react-stately/utils@3.10.3(react@18.3.1):
     resolution: {integrity: sha512-moClv7MlVSHpbYtQIkm0Cx+on8Pgt1XqtPx6fy9rQFb2DNc9u1G3AUVnqA17buOkH1vLxAtX4MedlxMWyRCYYA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@swc/helpers': 0.5.13
+      react: 18.3.1
+    dev: false
+
+  /@react-stately/utils@3.10.4(react@18.3.1):
+    resolution: {integrity: sha512-gBEQEIMRh5f60KCm7QKQ2WfvhB2gLUr9b72sqUdIZ2EG+xuPgaIlCBeSicvjmjBvYZwOjoOEnmIkcx2GHp/HWw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
     dependencies:
@@ -2034,6 +2181,14 @@ packages:
       react: 18.3.1
     dev: false
 
+  /@react-types/shared@3.25.0(react@18.3.1):
+    resolution: {integrity: sha512-OZSyhzU6vTdW3eV/mz5i6hQwQUhkRs7xwY2d1aqPvTdMe0+2cY7Fwp45PAiwYLEj73i9ro2FxF9qC4DvHGSCgQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
+    dependencies:
+      react: 18.3.1
+    dev: false
+
   /@react-types/slider@3.7.5(react@18.3.1):
     resolution: {integrity: sha512-bRitwQRQjQoOcKEdPMljnvm474dwrmsc6pdsVQDh/qynzr+KO9IHuYc3qPW53WVE2hMQJDohlqtCAWQXWQ5Vcg==}
     peerDependencies:
@@ -2221,7 +2376,7 @@ packages:
   /@swc/helpers@0.5.13:
     resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
     dev: false
 
   /@types/babel__core@7.20.5:
@@ -2654,6 +2809,15 @@ packages:
       '@formatjs/fast-memoize': 2.2.0
       '@formatjs/icu-messageformat-parser': 2.7.8
       tslib: 2.7.0
+    dev: false
+
+  /intl-messageformat@10.7.3:
+    resolution: {integrity: sha512-AAo/3oyh7ROfPhDuh7DxTTydh97OC+lv7h1Eq5LuHWuLsUMKOhtzTYuyXlUReuwZ9vANDHo4CS1bGRrn7TZRtg==}
+    dependencies:
+      '@formatjs/ecma402-abstract': 2.2.1
+      '@formatjs/fast-memoize': 2.2.2
+      '@formatjs/icu-messageformat-parser': 2.9.1
+      tslib: 2.8.0
     dev: false
 
   /is-binary-path@2.1.0:
@@ -3191,6 +3355,10 @@ packages:
     resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
     dev: false
 
+  /tailwind-merge@2.5.4:
+    resolution: {integrity: sha512-0q8cfZHMu9nuYP/b5Shb7Y7Sh1B7Nnl5GqNr1U+n2p6+mybvRtayrQ+0042Z5byvTA8ihjlP8Odo8/VnHbZu4Q==}
+    dev: false
+
   /tailwindcss-react-aria-components@1.1.5(tailwindcss@3.4.14):
     resolution: {integrity: sha512-0qNr/RlKe5MtDMGMsCFbCoQzpURzEg1raQgnssvOyOWtIIpqleu0lwj8KVRbiZGh8DvX9fNxT+GnfYdiNLJ+Bw==}
     peerDependencies:
@@ -3256,6 +3424,10 @@ packages:
 
   /tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
+    dev: false
+
+  /tslib@2.8.0:
+    resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
     dev: false
 
   /type-fest@4.20.1:
