@@ -16,10 +16,10 @@ dependencies:
     version: 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
   '@marigold/theme-b2b':
     specifier: 28.0.0
-    version: 28.0.0(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
+    version: 28.0.0(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
   '@marigold/theme-core':
     specifier: 27.0.0
-    version: 27.0.0(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
+    version: 27.0.0(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -39,10 +39,10 @@ devDependencies:
     version: 4.3.3(vite@5.4.10)
   autoprefixer:
     specifier: ^10.4.19
-    version: 10.4.20(postcss@8.4.47)
+    version: 10.4.20(postcss@8.4.48)
   postcss:
     specifier: ^8.4.38
-    version: 8.4.47
+    version: 8.4.48
   process:
     specifier: 0.11.10
     version: 0.11.10
@@ -629,12 +629,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/theme-b2b@28.0.0(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
+  /@marigold/theme-b2b@28.0.0(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
     resolution: {integrity: sha512-kNzORviiDDs/0ctvIMva0aDSvka25nnu/gylPOc3lIH3zSmSPpKbyf860pJZQfa2zA1dfQBjzXiqnDe5UT3uOQ==}
     dependencies:
       '@marigold/components': 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
       '@marigold/system': 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/theme-preset': 1.3.23(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
+      '@marigold/theme-preset': 1.3.23(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -643,12 +643,12 @@ packages:
       - tailwindcss
     dev: false
 
-  /@marigold/theme-core@27.0.0(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
+  /@marigold/theme-core@27.0.0(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
     resolution: {integrity: sha512-lK82p1F9omRhltu64uNkagbhTLPpGgD+bsIle4vZ12wqEbPh6JTJex1mOlqc/rsBG+ODAISi9480mgR9TZ8dLA==}
     dependencies:
       '@marigold/components': 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
       '@marigold/system': 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
-      '@marigold/theme-preset': 1.3.23(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
+      '@marigold/theme-preset': 1.3.23(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14)
     transitivePeerDependencies:
       - '@types/react'
       - postcss
@@ -657,7 +657,7 @@ packages:
       - tailwindcss
     dev: false
 
-  /@marigold/theme-preset@1.3.23(@types/react@18.3.12)(postcss@8.4.47)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
+  /@marigold/theme-preset@1.3.23(@types/react@18.3.12)(postcss@8.4.48)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.14):
     resolution: {integrity: sha512-b1IFf6iJZcC5VkL4+kG/blSCa4smBJHHOqNSESSKjZNMDb7nakF8O7AEKgNrnagLB8bnzVYlJFNerRc/Hw2oaQ==}
     peerDependencies:
       postcss: 8.4.x
@@ -665,7 +665,7 @@ packages:
     dependencies:
       '@marigold/system': 10.0.0(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
       deepmerge: 4.3.1
-      postcss: 8.4.47
+      postcss: 8.4.48
       tailwindcss: 3.4.14
       tailwindcss-react-aria-components: 1.1.6(tailwindcss@3.4.14)
     transitivePeerDependencies:
@@ -2358,7 +2358,7 @@ packages:
   /arg@5.0.2:
     resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==}
 
-  /autoprefixer@10.4.20(postcss@8.4.47):
+  /autoprefixer@10.4.20(postcss@8.4.48):
     resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -2370,7 +2370,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
-      postcss: 8.4.47
+      postcss: 8.4.48
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -2853,9 +2853,6 @@ packages:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
     dev: true
 
-  /picocolors@1.1.0:
-    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
-
   /picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -2871,27 +2868,27 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
 
-  /postcss-import@15.1.0(postcss@8.4.47):
+  /postcss-import@15.1.0(postcss@8.4.48):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.47
+      postcss: 8.4.48
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
 
-  /postcss-js@4.0.1(postcss@8.4.47):
+  /postcss-js@4.0.1(postcss@8.4.48):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.47
+      postcss: 8.4.48
 
-  /postcss-load-config@4.0.2(postcss@8.4.47):
+  /postcss-load-config@4.0.2(postcss@8.4.48):
     resolution: {integrity: sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -2904,16 +2901,16 @@ packages:
         optional: true
     dependencies:
       lilconfig: 3.1.2
-      postcss: 8.4.47
+      postcss: 8.4.48
       yaml: 2.6.0
 
-  /postcss-nested@6.2.0(postcss@8.4.47):
+  /postcss-nested@6.2.0(postcss@8.4.48):
     resolution: {integrity: sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.47
+      postcss: 8.4.48
       postcss-selector-parser: 6.1.2
 
   /postcss-selector-parser@6.1.2:
@@ -2926,12 +2923,12 @@ packages:
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  /postcss@8.4.47:
-    resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
+  /postcss@8.4.48:
+    resolution: {integrity: sha512-GCRK8F6+Dl7xYniR5a4FYbpBzU8XnZVeowqsQFYdcXuSbChgiks7qybSkbvnaeqv0G0B+dd9/jJgH8kkLDQeEA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       source-map-js: 1.2.1
 
   /process@0.11.10:
@@ -3256,11 +3253,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.4.47
-      postcss-import: 15.1.0(postcss@8.4.47)
-      postcss-js: 4.0.1(postcss@8.4.47)
-      postcss-load-config: 4.0.2(postcss@8.4.47)
-      postcss-nested: 6.2.0(postcss@8.4.47)
+      postcss: 8.4.48
+      postcss-import: 15.1.0(postcss@8.4.48)
+      postcss-js: 4.0.1(postcss@8.4.48)
+      postcss-load-config: 4.0.2(postcss@8.4.48)
+      postcss-nested: 6.2.0(postcss@8.4.48)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.8
       sucrase: 3.35.0
@@ -3372,7 +3369,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.4.47
+      postcss: 8.4.48
       rollup: 4.21.0
     optionalDependencies:
       fsevents: 2.3.3
