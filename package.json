@@ -20,7 +20,7 @@
     "process": "0.11.10",
     "tailwindcss": "^3.4.3",
     "typescript": "5.6.3",
-    "vite": "5.4.10"
+    "vite": "5.4.11"
   },
   "dependencies": {
     "@marigold/components": "10.0.0",
