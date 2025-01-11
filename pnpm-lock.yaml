@@ -10,7 +10,7 @@ dependencies:
     version: 10.1.0(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/icons':
     specifier: ^1.2.44
-    version: 1.2.59(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0)
+    version: 1.2.60(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/system':
     specifier: 10.1.0
     version: 10.1.0(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0)
@@ -623,12 +623,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.59(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-Zn1za2PoMm+K+fCWJFV2nAdp0kahBMcFkFyxRij0R836Pxa0srVb7HO+H/tcCcUO/plIpImxPWdxbVOcb8bkMA==}
+  /@marigold/icons@1.2.60(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-1YCt4CgtZyvIqBKjN7fv72/Q7Fc+qT7RDaPFlF7yhbzyVGynFYQI1B9FDENRH2CGKG0UVUCysVmluaylSRi9hg==}
     peerDependencies:
       react: 18.x
     dependencies:
-      '@marigold/system': 10.1.0(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0)
+      '@marigold/system': 10.1.1(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
     transitivePeerDependencies:
       - '@types/react'
@@ -649,6 +649,24 @@ packages:
       react-dom: 19.0.0(react@19.0.0)
       react-fast-compare: 3.2.2
       tailwind-merge: 2.5.4
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
+  /@marigold/system@10.1.1(@types/react@19.0.3)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-YQX5KvJSB4IA8YwTnjKBtyFxiXRTL91wVNRZeOHvLgeO2xsq58TlYPv9wrWscdyIVmDY+C3QdqK1aEZi2ehhfw==}
+    peerDependencies:
+      react: 18.x
+      react-dom: 18.x
+    dependencies:
+      '@marigold/types': 1.2.0(@types/react@19.0.3)
+      '@react-aria/i18n': 3.12.4(react@19.0.0)
+      class-variance-authority: 0.7.1
+      deepmerge: 4.3.1
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.5.5
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -2475,6 +2493,12 @@ packages:
       clsx: 2.0.0
     dev: false
 
+  /class-variance-authority@0.7.1:
+    resolution: {integrity: sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==}
+    dependencies:
+      clsx: 2.1.1
+    dev: false
+
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
@@ -3209,6 +3233,10 @@ packages:
 
   /tailwind-merge@2.5.4:
     resolution: {integrity: sha512-0q8cfZHMu9nuYP/b5Shb7Y7Sh1B7Nnl5GqNr1U+n2p6+mybvRtayrQ+0042Z5byvTA8ihjlP8Odo8/VnHbZu4Q==}
+    dev: false
+
+  /tailwind-merge@2.5.5:
+    resolution: {integrity: sha512-0LXunzzAZzo0tEPxV3I297ffKZPlKDrjj7NXphC8V5ak9yHC5zRmxnOe2m/Rd/7ivsOMJe3JZ2JVocoDdQTRBA==}
     dev: false
 
   /tailwindcss-react-aria-components@1.2.0(tailwindcss@3.4.17):
