@@ -41,8 +41,8 @@ devDependencies:
     specifier: 4.3.4
     version: 4.3.4(vite@6.1.0)
   autoprefixer:
-    specifier: 10.4.19
-    version: 10.4.19(postcss@8.5.2)
+    specifier: 10.4.20
+    version: 10.4.20(postcss@8.5.2)
   tailwindcss:
     specifier: 4.0.6
     version: 4.0.6
@@ -2466,8 +2466,8 @@ packages:
       - supports-color
     dev: true
 
-  /autoprefixer@10.4.19(postcss@8.5.2):
-    resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
+  /autoprefixer@10.4.20(postcss@8.5.2):
+    resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
