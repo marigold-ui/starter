@@ -10,7 +10,7 @@ dependencies:
     version: 10.2.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/icons':
     specifier: ^1.2.44
-    version: 1.2.65(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
+    version: 1.2.66(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/system':
     specifier: 10.2.1
     version: 10.2.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
@@ -624,12 +624,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.65(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-IH2g1/el0XQ1wjSSiFzHV7OvM+osCxqrHIQ8zlL/G67TmNjV+Lhdgq2XpvUR8kZlFEMcpHplh1o0y89fa5F6sQ==}
+  /@marigold/icons@1.2.66(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-XvFc/rcCZls9w7upr5Yzo34rZFWV2hyZii1OdQIdjj4DSEXa+0+JQlkGMyyilC9tOVuqP6mOJiLCr47rcnH1VA==}
     peerDependencies:
       react: 19.x
     dependencies:
-      '@marigold/system': 11.0.0(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
+      '@marigold/system': 11.0.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
     transitivePeerDependencies:
       - '@types/react'
@@ -654,8 +654,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/system@11.0.0(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-gkUWhsJCzqd2dVEp1i6xOyA4OtZNvtPGsiRBzj9mYeoOPl5W8dOlQc77NBDOEDkHh22rr9UomKjklrhW3pf8Gw==}
+  /@marigold/system@11.0.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-IGmxelC7BztamWBDf5aUFkIVxDIrxdEPXXtij2Q7Kf385Lo0Zaad5n/jdbQ00wb2udPIfiV+hxkXRlAwFUWDMQ==}
     peerDependencies:
       react: 19.x
       react-dom: 19.x
