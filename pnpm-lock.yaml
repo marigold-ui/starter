@@ -10,7 +10,7 @@ dependencies:
     version: 10.2.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/icons':
     specifier: ^1.2.44
-    version: 1.2.64(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
+    version: 1.2.65(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/system':
     specifier: 10.2.1
     version: 10.2.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
@@ -624,12 +624,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.64(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-Zphzl4edglq+9FT8JfHQ0Cowxxs5I0YWgmr+Iralrnaw822Gn24yJ/VbbDpxx6Gv36DAMWgU920YpzrS7axaGA==}
+  /@marigold/icons@1.2.65(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-IH2g1/el0XQ1wjSSiFzHV7OvM+osCxqrHIQ8zlL/G67TmNjV+Lhdgq2XpvUR8kZlFEMcpHplh1o0y89fa5F6sQ==}
     peerDependencies:
       react: 19.x
     dependencies:
-      '@marigold/system': 10.2.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
+      '@marigold/system': 11.0.0(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
     transitivePeerDependencies:
       - '@types/react'
@@ -638,6 +638,24 @@ packages:
 
   /@marigold/system@10.2.1(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
     resolution: {integrity: sha512-B/w1at5TDt2DdGjtMWaUCaOgE4S9ATd0CzXAE5P4o6hvkC9zbAqb7ECek5r3bAGcjHeKKOA2d7ZXf4/1Rran9w==}
+    peerDependencies:
+      react: 19.x
+      react-dom: 19.x
+    dependencies:
+      '@marigold/types': 1.2.1(@types/react@19.0.8)
+      '@react-aria/i18n': 3.12.5(react-dom@19.0.0)(react@19.0.0)
+      class-variance-authority: 0.7.1
+      deepmerge: 4.3.1
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.6.0
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
+  /@marigold/system@11.0.0(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-gkUWhsJCzqd2dVEp1i6xOyA4OtZNvtPGsiRBzj9mYeoOPl5W8dOlQc77NBDOEDkHh22rr9UomKjklrhW3pf8Gw==}
     peerDependencies:
       react: 19.x
       react-dom: 19.x
