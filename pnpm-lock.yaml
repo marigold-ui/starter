@@ -9,8 +9,8 @@ dependencies:
     specifier: 11.0.2
     version: 11.0.2(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/icons':
-    specifier: 1.2.67
-    version: 1.2.67(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
+    specifier: 1.2.68
+    version: 1.2.68(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
   '@marigold/system':
     specifier: 11.0.2
     version: 11.0.2(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
@@ -559,12 +559,12 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/icons@1.2.67(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-CMwys/ykHYsngav5BoW+o+7NJQeTbx3FNXz2hLnvUvb4mVAdMg3lEq/VCFOdZpVxHkADmV9rFVrOU1vY4GBnLQ==}
+  /@marigold/icons@1.2.68(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-PKKU4XK9bKj9eBr00qewInzxaFj5GHN6a4WLmetEIgjv/KrLC8t5RWIuXIfiqJXJKjs8GZIB4YJ+Bbtvr1Sivg==}
     peerDependencies:
       react: 19.x
     dependencies:
-      '@marigold/system': 11.0.2(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
+      '@marigold/system': 11.1.0(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
     transitivePeerDependencies:
       - '@types/react'
@@ -573,6 +573,24 @@ packages:
 
   /@marigold/system@11.0.2(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0):
     resolution: {integrity: sha512-n++WpQVvQ6fvQvTNXOrmXa9dMpKutMbnL0O8pd8YgCS9iwFPyzZsOpvOYK1lRx3RR7aBM2FUszFeBLx7cb88+w==}
+    peerDependencies:
+      react: 19.x
+      react-dom: 19.x
+    dependencies:
+      '@marigold/types': 1.2.1(@types/react@19.0.10)
+      '@react-aria/i18n': 3.12.5(react-dom@19.0.0)(react@19.0.0)
+      class-variance-authority: 0.7.1
+      deepmerge: 4.3.1
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 2.6.0
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: false
+
+  /@marigold/system@11.1.0(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-nHjOmLFrxwHvWew3a3eLh6hJflfOjZDgXWxujC2W549b15cH6iq0Yyh1PvCF1JJL5MsShlX23GwHYL6amClidw==}
     peerDependencies:
       react: 19.x
       react-dom: 19.x
