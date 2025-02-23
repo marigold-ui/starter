@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@marigold/components": "11.1.0",
-    "@marigold/icons": "1.2.68",
+    "@marigold/icons": "1.2.69",
     "@marigold/system": "11.1.0",
     "@marigold/theme-b2b": "29.1.0",
     "@marigold/theme-core": "28.1.0",
