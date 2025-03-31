@@ -27,8 +27,8 @@
     "@marigold/theme-b2b": "29.2.3",
     "@marigold/theme-core": "28.2.3",
     "@tailwindcss/vite": "4.0.17",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "scripts": {
     "dev": "vite",
