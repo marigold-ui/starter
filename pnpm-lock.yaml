@@ -6,20 +6,20 @@ settings:
 
 dependencies:
   '@marigold/components':
-    specifier: 11.2.2
-    version: 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+    specifier: 11.2.3
+    version: 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
   '@marigold/icons':
     specifier: 1.3.3
     version: 1.3.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
   '@marigold/system':
-    specifier: 11.2.2
-    version: 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+    specifier: 11.2.3
+    version: 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
   '@marigold/theme-b2b':
-    specifier: 29.2.3
-    version: 29.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+    specifier: 29.2.4
+    version: 29.2.4(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)(tailwindcss@4.0.17)
   '@marigold/theme-core':
-    specifier: 28.2.3
-    version: 28.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+    specifier: 28.2.4
+    version: 28.2.4(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)(tailwindcss@4.0.17)
   '@tailwindcss/vite':
     specifier: 4.0.17
     version: 4.0.17(vite@6.2.4)
@@ -525,14 +525,14 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
-  /@marigold/components@11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-ZRw66Zh8Vto9e7/YTDChI1PCzv3w7Q6iA7aWaSe09wkROQUBv9PJH9Zk+cKp03pOA2BUswRcfHvOCx+mD2Z5vg==}
+  /@marigold/components@11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-4vABIGR0aMqGE/DrQPxMbyrsQYnO8CZKbGn9iU9xE2a7iuZEAoeJIzOhPK2pfE6I4FhdQWjnkHiZyR9qhRFM1g==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
       '@internationalized/date': 3.7.0
-      '@marigold/system': 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+      '@marigold/system': 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
       '@marigold/types': 1.3.0(@types/react@19.0.12)
       '@react-aria/button': 3.12.0(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/calendar': 3.7.2(react-dom@19.1.0)(react@19.1.0)
@@ -570,24 +570,6 @@ packages:
       - react-dom
     dev: false
 
-  /@marigold/system@11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-W5g59nW6pUfloOhj4HDM3Bv7RtZUOss9fb6RcXSglAofgV/b25ulGX8m4n4Icgf6Fq6/YbFNXi6gzqDdz62Hrg==}
-    peerDependencies:
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-    dependencies:
-      '@marigold/types': 1.3.0(@types/react@19.0.12)
-      '@react-aria/i18n': 3.12.6(react-dom@19.1.0)(react@19.1.0)
-      class-variance-authority: 0.7.1
-      deepmerge: 4.3.1
-      react: 19.1.0
-      react-dom: 19.1.0(react@19.1.0)
-      react-fast-compare: 3.2.2
-      tailwind-merge: 3.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
   /@marigold/system@11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0):
     resolution: {integrity: sha512-SHsOWONrjbcM5yKJFDhhNlmwNYAHDc4cIs+WUyNfPDgAayFv2SkXfVkVv3GexewOMgVaY1qj/DyoZ+z/aBAbpw==}
     peerDependencies:
@@ -606,28 +588,32 @@ packages:
       - '@types/react'
     dev: false
 
-  /@marigold/theme-b2b@29.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-iZCZDBwHq7UTqPuSJFN/uu5VW4VJT8/bzaNz8MSh+Wt02hsDg1WOUKNLCn8UrNLlvWedHw0Cd49Se1StQ4Yw5A==}
+  /@marigold/theme-b2b@29.2.4(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)(tailwindcss@4.0.17):
+    resolution: {integrity: sha512-6+FNgA/xHW4BfoLOQAgYjrY28Vaxnw6wyupYT/wcx4aYe0/J+Z9nFoa5X+cDrnnTW1+xJIR6Fy87kd9HsK46rg==}
     dependencies:
-      '@marigold/components': 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
-      '@marigold/system': 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+      '@marigold/components': 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+      '@marigold/system': 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
+      tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.0.17)
     transitivePeerDependencies:
       - '@types/react'
       - react
       - react-dom
+      - tailwindcss
     dev: false
 
-  /@marigold/theme-core@28.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-m4cFFP6q+1x9ukoLUvbEuO4+zVstRi1l5jnilsAF5iOdrjpudjX0RvUNP1ZpjWR7sqAmuqNysLn5BvF0JLRqow==}
+  /@marigold/theme-core@28.2.4(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)(tailwindcss@4.0.17):
+    resolution: {integrity: sha512-JyvpBD4aQwvwe9qui3refmBW/DjxnDDUJS77M2rmjHaPIsgTcc9DvWjJZeeMOWuarilxdy+r1NBKV8OHhBHnRw==}
     dependencies:
-      '@marigold/components': 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
-      '@marigold/system': 11.2.2(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+      '@marigold/components': 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
+      '@marigold/system': 11.2.3(@types/react@19.0.12)(react-dom@19.1.0)(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
+      tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.0.17)
     transitivePeerDependencies:
       - '@types/react'
       - react
       - react-dom
+      - tailwindcss
     dev: false
 
   /@marigold/theme-plugins@1.0.1:
@@ -650,7 +636,7 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     dependencies:
       '@react-aria/combobox': 3.12.1(react-dom@19.1.0)(react@19.1.0)
-      '@react-aria/focus': 3.20.0(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/focus': 3.20.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/i18n': 3.12.7(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/interactions': 3.24.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/listbox': 3.14.2(react-dom@19.1.0)(react@19.1.0)
@@ -1174,12 +1160,12 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     dependencies:
-      '@react-aria/focus': 3.20.0(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/focus': 3.20.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/i18n': 3.12.7(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/interactions': 3.24.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/ssr': 3.9.7(react@19.1.0)
       '@react-aria/utils': 3.28.1(react-dom@19.1.0)(react@19.1.0)
-      '@react-aria/visually-hidden': 3.8.20(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/visually-hidden': 3.8.21(react-dom@19.1.0)(react@19.1.0)
       '@react-stately/overlays': 3.6.14(react@19.1.0)
       '@react-types/button': 3.11.0(react@19.1.0)
       '@react-types/overlays': 3.8.13(react@19.1.0)
@@ -1294,7 +1280,7 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     dependencies:
-      '@react-aria/focus': 3.20.0(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/focus': 3.20.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/i18n': 3.12.7(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/interactions': 3.24.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/utils': 3.28.1(react-dom@19.1.0)(react@19.1.0)
@@ -1400,13 +1386,13 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     dependencies:
-      '@react-aria/focus': 3.20.0(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/focus': 3.20.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/grid': 3.12.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/i18n': 3.12.7(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/interactions': 3.24.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/live-announcer': 3.4.1
       '@react-aria/utils': 3.28.1(react-dom@19.1.0)(react@19.1.0)
-      '@react-aria/visually-hidden': 3.8.20(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/visually-hidden': 3.8.21(react-dom@19.1.0)(react@19.1.0)
       '@react-stately/collections': 3.12.2(react@19.1.0)
       '@react-stately/flags': 3.1.0
       '@react-stately/table': 3.14.0(react@19.1.0)
@@ -1541,7 +1527,7 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     dependencies:
-      '@react-aria/focus': 3.20.0(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/focus': 3.20.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/i18n': 3.12.7(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/utils': 3.28.1(react-dom@19.1.0)(react@19.1.0)
       '@react-types/shared': 3.28.0(react@19.1.0)
@@ -2998,7 +2984,7 @@ packages:
       '@react-aria/autocomplete': 3.0.0-beta.0(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/collections': 3.0.0-beta.0(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/dnd': 3.9.1(react-dom@19.1.0)(react@19.1.0)
-      '@react-aria/focus': 3.20.0(react-dom@19.1.0)(react@19.1.0)
+      '@react-aria/focus': 3.20.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/interactions': 3.24.1(react-dom@19.1.0)(react@19.1.0)
       '@react-aria/live-announcer': 3.4.1
       '@react-aria/toolbar': 3.0.0-beta.13(react-dom@19.1.0)(react@19.1.0)
@@ -3175,6 +3161,14 @@ packages:
 
   /tailwind-merge@3.0.2:
     resolution: {integrity: sha512-l7z+OYZ7mu3DTqrL88RiKrKIqO3NcpEO8V/Od04bNpvk0kiIFndGEoqfuzvj4yuhRkHKjRkII2z+KS2HfPcSxw==}
+    dev: false
+
+  /tailwindcss-react-aria-components@2.0.0(tailwindcss@4.0.17):
+    resolution: {integrity: sha512-l8YdpXX//qx0Mz2bW3YKLjboTQxR3zLrFhlHniAIn+mTwVM1yvT0Jp7Pn3eFrqi+qtOMmcJzXaF2rsKezSr0SQ==}
+    peerDependencies:
+      tailwindcss: ^4.0.0
+    dependencies:
+      tailwindcss: 4.0.17
     dev: false
 
   /tailwindcss@4.0.17:
