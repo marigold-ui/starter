@@ -1,2 +1,4 @@
-@import "tailwindcss";
-@import './../node_modules/@marigold/theme-core/dist/theme.css';
+@import 'tailwindcss';
+@import '../node_modules/@marigold/theme-core/dist/theme.css';
+
+@source '../node_modules/@marigold';
