@@ -1,2 +1,5 @@
-@import "tailwindcss";
-@import './../node_modules/@marigold/theme-core/dist/theme.css';
+@import 'tailwindcss';
+@import '../node_modules/@marigold/theme-core/dist/theme.css';
+
+/* needed to find styles otherwise not working */
+@source '../node_modules/@marigold';
