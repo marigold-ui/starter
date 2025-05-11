@@ -18,11 +18,11 @@ importers:
         specifier: 11.5.0
         version: 11.5.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-b2b':
-        specifier: 30.0.1
-        version: 30.0.1(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)
+        specifier: 30.0.2
+        version: 30.0.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)
       '@marigold/theme-core':
-        specifier: 29.0.1
-        version: 29.0.1(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)
+        specifier: 29.0.2
+        version: 29.0.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)
       '@tailwindcss/vite':
         specifier: 4.1.5
         version: 4.1.5(vite@6.3.5(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.6.0))
@@ -341,6 +341,12 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
+  '@marigold/components@12.0.0':
+    resolution: {integrity: sha512-u/sVlFAG9mDEwUU1Brfa7UwvRvmN7dlgQ7cEzdK125dKQMhrB9dyhgmsizEXnscCJtcGn16Xy1YmEWGlVfnFBA==}
+    peerDependencies:
+      react: '>=17.0.0'
+      react-dom: '>=17.0.0'
+
   '@marigold/icons@1.3.8':
     resolution: {integrity: sha512-Inpn1CyCXRiBRqj3nyUPtJJnm4V6iKl2rLupkYAe8S5NjL+GBaR9TGwhqci92k/h2rq5j7aCdh92pKrhcv8OMQ==}
     peerDependencies:
@@ -358,11 +364,11 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/theme-b2b@30.0.1':
-    resolution: {integrity: sha512-2rhz5MxlQVaMfTTueRte9RuSAs7fyRbVOC9W2UvPjC2mE+WLMnVEfCdbJ9iWy1dzgMIbZUs6vCPYOW3w5doJpg==}
+  '@marigold/theme-b2b@30.0.2':
+    resolution: {integrity: sha512-3Sit/UdRY8hZu315YWkA7qutlP7v4ARj6Sy+zQXoGOrqSSJtcClzaudfgkEfWtPeqJBRd74Lv5T2308vE0qmFw==}
 
-  '@marigold/theme-core@29.0.1':
-    resolution: {integrity: sha512-B9JGLbbYykvinntzbIY8rtGp9WF3NHp/ourpqMZmTxSec+fSOsaYl3SkSXTWLgjQxUJ7MeZtjZMEE45GnPfRBQ==}
+  '@marigold/theme-core@29.0.2':
+    resolution: {integrity: sha512-OVwpmNeYThZTKJZbGml93YE8W4tN9KBYAQFO2HRO9yeVV2Dl3Rrvb+RQsnREwkP+W9erBrnGQh2292YOOs+CrQ==}
 
   '@marigold/theme-plugins@1.0.1':
     resolution: {integrity: sha512-o0Rhec2wDSBRfXcqfnDGdlyp6Xx5YErBFLAnN5khXMW9XR4EVTVV50Qw8h4QFhYWSbgLjZKlaw5/E2rylrx8dQ==}
@@ -1811,6 +1817,36 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
+  '@marigold/components@12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@internationalized/date': 3.8.0
+      '@marigold/system': 12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/types': 1.3.0(@types/react@19.1.3)
+      '@react-aria/button': 3.13.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/calendar': 3.8.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/focus': 3.20.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/i18n': 3.12.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/interactions': 3.25.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/landmark': 3.0.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/overlays': 3.27.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/selection': 3.24.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/ssr': 3.9.8(react@19.1.0)
+      '@react-aria/table': 3.17.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/utils': 3.28.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-aria/visually-hidden': 3.8.22(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-stately/collections': 3.12.3(react@19.1.0)
+      '@react-stately/data': 3.12.3(react@19.1.0)
+      '@react-stately/table': 3.14.1(react@19.1.0)
+      '@react-stately/tree': 3.8.9(react@19.1.0)
+      '@react-types/shared': 3.29.0(react@19.1.0)
+      '@react-types/table': 3.12.0(react@19.1.0)
+      react: 19.1.0
+      react-aria-components: 1.8.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+      react-stately: 3.37.0(react@19.1.0)
+    transitivePeerDependencies:
+      - '@types/react'
+
   '@marigold/icons@1.3.8(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@marigold/system': 12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -1845,10 +1881,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/theme-b2b@30.0.1(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)':
+  '@marigold/theme-b2b@30.0.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)':
     dependencies:
-      '@marigold/components': 11.5.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@marigold/system': 11.5.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/components': 12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
       tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.1.5)
     transitivePeerDependencies:
@@ -1857,10 +1893,10 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@marigold/theme-core@29.0.1(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)':
+  '@marigold/theme-core@29.0.2(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)':
     dependencies:
-      '@marigold/components': 11.5.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@marigold/system': 11.5.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/components': 12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.0(@types/react@19.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
       tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.1.5)
     transitivePeerDependencies:
