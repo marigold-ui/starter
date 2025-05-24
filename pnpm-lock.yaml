@@ -10,22 +10,22 @@ importers:
     dependencies:
       '@marigold/components':
         specifier: 12.0.0
-        version: 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/icons':
         specifier: 1.3.8
-        version: 1.3.8(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 1.3.8(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/system':
         specifier: 12.0.0
-        version: 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-b2b':
         specifier: 30.0.2
-        version: 30.0.2(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)
+        version: 30.0.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)
       '@marigold/theme-core':
         specifier: 29.0.2
-        version: 29.0.2(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)
+        version: 29.0.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)
       '@marigold/theme-rui':
         specifier: 1.1.0
-        version: 1.1.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)
+        version: 1.1.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)
       '@tailwindcss/vite':
         specifier: 4.1.7
         version: 4.1.7(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.6.0))
@@ -37,11 +37,11 @@ importers:
         version: 19.1.0(react@19.1.0)
     devDependencies:
       '@types/react':
-        specifier: 19.1.4
-        version: 19.1.4
+        specifier: 19.1.5
+        version: 19.1.5
       '@types/react-dom':
         specifier: 19.1.5
-        version: 19.1.5(@types/react@19.1.4)
+        version: 19.1.5(@types/react@19.1.5)
       '@vitejs/plugin-react':
         specifier: 4.4.1
         version: 4.4.1(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.6.0))
@@ -1175,8 +1175,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.4':
-    resolution: {integrity: sha512-EB1yiiYdvySuIITtD5lhW4yPyJ31RkJkkDw794LaQYrxCSaQV/47y5o1FMC4zF9ZyjUjzJMZwbovEnT5yHTW6g==}
+  '@types/react@19.1.5':
+    resolution: {integrity: sha512-piErsCVVbpMMT2r7wbawdZsq4xMvIAhQuac2gedQHysu1TZYEigE6pnFfgZT+/jQnrRuF5r+SHzuehFjfRjr4g==}
 
   '@vitejs/plugin-react@4.4.1':
     resolution: {integrity: sha512-IpEm5ZmeXAP/osiBXVVP5KjFMzbWOonMs0NaQQl+xYnUAcq4oHUBsF2+p4MgKWG4YMmFYJU8A6sxRPuowllm6w==}
@@ -1822,11 +1822,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@marigold/components@12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@marigold/components@12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@internationalized/date': 3.8.0
-      '@marigold/system': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@marigold/types': 1.3.0(@types/react@19.1.4)
+      '@marigold/system': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/types': 1.3.0(@types/react@19.1.5)
       '@react-aria/button': 3.13.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@react-aria/calendar': 3.8.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@react-aria/focus': 3.20.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -1852,17 +1852,17 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/icons@1.3.8(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@marigold/icons@1.3.8(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@marigold/system': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
 
-  '@marigold/system@12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@marigold/system@12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@marigold/types': 1.3.0(@types/react@19.1.4)
+      '@marigold/types': 1.3.0(@types/react@19.1.5)
       '@react-aria/i18n': 3.12.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       class-variance-authority: 0.7.1
       deepmerge: 4.3.1
@@ -1873,10 +1873,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/theme-b2b@30.0.2(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)':
+  '@marigold/theme-b2b@30.0.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)':
     dependencies:
-      '@marigold/components': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@marigold/system': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/components': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
       tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.1.7)
     transitivePeerDependencies:
@@ -1885,10 +1885,10 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@marigold/theme-core@29.0.2(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)':
+  '@marigold/theme-core@29.0.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)':
     dependencies:
-      '@marigold/components': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@marigold/system': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/components': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
       tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.1.7)
     transitivePeerDependencies:
@@ -1899,10 +1899,10 @@ snapshots:
 
   '@marigold/theme-plugins@1.0.1': {}
 
-  '@marigold/theme-rui@1.1.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)':
+  '@marigold/theme-rui@1.1.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.7)':
     dependencies:
-      '@marigold/components': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@marigold/system': 12.0.0(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/components': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.0(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/theme-plugins': 1.0.1
       tailwindcss-animate: 1.0.7(tailwindcss@4.1.7)
       tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.1.7)
@@ -1912,9 +1912,9 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@marigold/types@1.3.0(@types/react@19.1.4)':
+  '@marigold/types@1.3.0(@types/react@19.1.5)':
     dependencies:
-      '@types/react': 19.1.4
+      '@types/react': 19.1.5
       type-fest: 4.33.0
 
   '@react-aria/autocomplete@3.0.0-beta.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
@@ -3117,11 +3117,11 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
-  '@types/react-dom@19.1.5(@types/react@19.1.4)':
+  '@types/react-dom@19.1.5(@types/react@19.1.5)':
     dependencies:
-      '@types/react': 19.1.4
+      '@types/react': 19.1.5
 
-  '@types/react@19.1.4':
+  '@types/react@19.1.5':
     dependencies:
       csstype: 3.1.3
 
