@@ -12,8 +12,8 @@ importers:
         specifier: 12.0.3
         version: 12.0.3(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/icons':
-        specifier: 1.3.11
-        version: 1.3.11(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 1.3.13
+        version: 1.3.13(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@marigold/system':
         specifier: 12.0.3
         version: 12.0.3(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -328,14 +328,26 @@ packages:
   '@internationalized/date@3.8.1':
     resolution: {integrity: sha512-PgVE6B6eIZtzf9Gu5HvJxRK3ufUFz9DhspELuhW/N0GuMGMTLvPQNRkHP2hTuP9lblOk+f+1xi96sPiPXANXAA==}
 
+  '@internationalized/date@3.8.2':
+    resolution: {integrity: sha512-/wENk7CbvLbkUvX1tu0mwq49CVkkWpkXubGel6birjRPyo6uQ4nQpnq5xZu823zRCwwn82zgHrvgF1vZyvmVgA==}
+
   '@internationalized/message@3.1.7':
     resolution: {integrity: sha512-gLQlhEW4iO7DEFPf/U7IrIdA3UyLGS0opeqouaFwlMObLUzwexRjbygONHDVbC9G9oFLXsLyGKYkJwqXw/QADg==}
+
+  '@internationalized/message@3.1.8':
+    resolution: {integrity: sha512-Rwk3j/TlYZhn3HQ6PyXUV0XP9Uv42jqZGNegt0BXlxjE6G3+LwHjbQZAGHhCnCPdaA6Tvd3ma/7QzLlLkJxAWA==}
 
   '@internationalized/number@3.6.2':
     resolution: {integrity: sha512-E5QTOlMg9wo5OrKdHD6edo1JJlIoOsylh0+mbf0evi1tHJwMZfJSaBpGtnJV9N7w3jeiioox9EG/EWRWPh82vg==}
 
+  '@internationalized/number@3.6.3':
+    resolution: {integrity: sha512-p+Zh1sb6EfrfVaS86jlHGQ9HA66fJhV9x5LiE5vCbZtXEHAuhcmUZUdZ4WrFpUBfNalr2OkAJI5AcKEQF+Lebw==}
+
   '@internationalized/string@3.2.6':
     resolution: {integrity: sha512-LR2lnM4urJta5/wYJVV7m8qk5DrMZmLRTuFhbQO5b9/sKLHgty6unQy1Li4+Su2DWydmB4aZdS5uxBRXIq2aAw==}
+
+  '@internationalized/string@3.2.7':
+    resolution: {integrity: sha512-D4OHBjrinH+PFZPvfCXvG28n2LSykWcJ7GIioQL+ok0LON15SdfoUssoHzzOUmVZLbRoREsQXVzA6r8JKsbP6A==}
 
   '@isaacs/fs-minipass@4.0.1':
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
@@ -365,13 +377,19 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/icons@1.3.11':
-    resolution: {integrity: sha512-nO9bRXHw2e6lpdqG3wW0yCwJZFhuIdpj+pwKSTXvDxSvcSJU1zk6+uBr95uL+eTNX9YnlloHhMrlJZtR5rSR/Q==}
+  '@marigold/icons@1.3.13':
+    resolution: {integrity: sha512-rdVU59rF+SXJElGqDRTpNIeK+G6boXFILRpCD1QOcgw2gK6BFwtCXfnBcwm0UrXhqH7VBq0swGM5RoMPnxh9Aw==}
     peerDependencies:
       react: '>=17.0.0'
 
   '@marigold/system@12.0.3':
     resolution: {integrity: sha512-yNoSdgebDv2GM6LySas7FaxbjOnTMPoiIHEao/cziBlYXAzGNcie+dXQQtJVbDZXxpHuxpZLQb/W3LuchiggGg==}
+    peerDependencies:
+      react: '>=17.0.0'
+      react-dom: '>=17.0.0'
+
+  '@marigold/system@12.0.5':
+    resolution: {integrity: sha512-2uPz+D53semi2AeMevOFnbXBUIDO6S+RVATQc2S755RRa12V+vL/dsMg0beRv9mDARJsfnpvC7HmITW4KwSvyw==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -485,6 +503,12 @@ packages:
 
   '@react-aria/gridlist@3.13.0':
     resolution: {integrity: sha512-RHURMo063qbbA8WXCJxGL+5xmSx6yW7Z/V2jycrVcZFOYqj2EgU953aVjpaT/FSyH8/AEioU9oE64YmiEfWUUA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+      react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+
+  '@react-aria/i18n@3.12.10':
+    resolution: {integrity: sha512-1j00soQ2W0nTgzaaIsGFdMF/5aN60AEdCJPhmXGZiuWdWzMxObN9LQ9vdzYPTjTqyqMdSaSp9DZKs5I26Xovpw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
@@ -606,6 +630,12 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
+  '@react-aria/ssr@3.9.9':
+    resolution: {integrity: sha512-2P5thfjfPy/np18e5wD4WPt8ydNXhij1jwA8oehxZTFqlgVMGXzcWKxTb4RtJrLFsqPO7RUQTiY8QJk0M4Vy2g==}
+    engines: {node: '>= 12'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+
   '@react-aria/switch@3.7.3':
     resolution: {integrity: sha512-tFdJmcHaLgW23cS2R713vcJdVbsjDTRk8OLdG/sMziPBY3C00/exuSIb57xTS7KrE0hBYfnLJQTcmDNqdM8+9Q==}
     peerDependencies:
@@ -668,6 +698,12 @@ packages:
 
   '@react-aria/utils@3.29.0':
     resolution: {integrity: sha512-jSOrZimCuT1iKNVlhjIxDkAhgF7HSp3pqyT6qjg/ZoA0wfqCi/okmrMPiWSAKBnkgX93N8GYTLT3CIEO6WZe9Q==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+      react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+
+  '@react-aria/utils@3.29.1':
+    resolution: {integrity: sha512-yXMFVJ73rbQ/yYE/49n5Uidjw7kh192WNN9PNQGV0Xoc7EJUlSOxqhnpHmYTyO0EotJ8fdM1fMH8durHjUSI8g==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
@@ -736,6 +772,9 @@ packages:
 
   '@react-stately/flags@3.1.1':
     resolution: {integrity: sha512-XPR5gi5LfrPdhxZzdIlJDz/B5cBf63l4q6/AzNqVWFKgd0QqY5LvWJftXkklaIUpKSJkIKQb8dphuZXDtkWNqg==}
+
+  '@react-stately/flags@3.1.2':
+    resolution: {integrity: sha512-2HjFcZx1MyQXoPqcBGALwWWmgFVUk2TuKVIQxCbRq7fPyWXIl6VHcakCLurdtYC2Iks7zizvz0Idv48MQ38DWg==}
 
   '@react-stately/form@3.1.4':
     resolution: {integrity: sha512-A6GOaZ9oEIo5/XOE+JT9Z8OBt0osIOfes4EcIxGS1C9ght/Smg0gNcIJ2/Wle8qmro4RoJcza2yJ+EglVOuE0w==}
@@ -830,6 +869,11 @@ packages:
 
   '@react-stately/utils@3.10.6':
     resolution: {integrity: sha512-O76ip4InfTTzAJrg8OaZxKU4vvjMDOpfA/PGNOytiXwBbkct2ZeZwaimJ8Bt9W1bj5VsZ81/o/tW4BacbdDOMA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+
+  '@react-stately/utils@3.10.7':
+    resolution: {integrity: sha512-cWvjGAocvy4abO9zbr6PW6taHgF24Mwy/LbQ4TC4Aq3tKdKDntxyD+sh7AkSRfJRT2ccMVaHVv2+FfHThd3PKQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
@@ -946,6 +990,11 @@ packages:
 
   '@react-types/shared@3.29.1':
     resolution: {integrity: sha512-KtM+cDf2CXoUX439rfEhbnEdAgFZX20UP2A35ypNIawR7/PFFPjQDWyA2EnClCcW/dLWJDEPX2U8+EJff8xqmQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+
+  '@react-types/shared@3.30.0':
+    resolution: {integrity: sha512-COIazDAx1ncDg046cTJ8SFYsX8aS3lB/08LDnbkH/SkdYrFPWDlXMrO/sUam8j1WWM+PJ+4d1mj7tODIKNiFog==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
@@ -1821,7 +1870,16 @@ snapshots:
     dependencies:
       '@swc/helpers': 0.5.17
 
+  '@internationalized/date@3.8.2':
+    dependencies:
+      '@swc/helpers': 0.5.17
+
   '@internationalized/message@3.1.7':
+    dependencies:
+      '@swc/helpers': 0.5.17
+      intl-messageformat: 10.7.16
+
+  '@internationalized/message@3.1.8':
     dependencies:
       '@swc/helpers': 0.5.17
       intl-messageformat: 10.7.16
@@ -1830,7 +1888,15 @@ snapshots:
     dependencies:
       '@swc/helpers': 0.5.17
 
+  '@internationalized/number@3.6.3':
+    dependencies:
+      '@swc/helpers': 0.5.17
+
   '@internationalized/string@3.2.6':
+    dependencies:
+      '@swc/helpers': 0.5.17
+
+  '@internationalized/string@3.2.7':
     dependencies:
       '@swc/helpers': 0.5.17
 
@@ -1885,9 +1951,9 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/icons@1.3.11(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@marigold/icons@1.3.13(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@marigold/system': 12.0.3(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@marigold/system': 12.0.5(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
     transitivePeerDependencies:
       - '@types/react'
@@ -1897,6 +1963,19 @@ snapshots:
     dependencies:
       '@marigold/types': 1.3.1(@types/react@19.1.7)
       '@react-aria/i18n': 3.12.9(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      class-variance-authority: 0.7.1
+      deepmerge: 4.3.1
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 3.2.0
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@marigold/system@12.0.5(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@marigold/types': 1.3.1(@types/react@19.1.7)
+      '@react-aria/i18n': 3.12.10(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       class-variance-authority: 0.7.1
       deepmerge: 4.3.1
       react: 19.1.0
@@ -2186,6 +2265,19 @@ snapshots:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
+  '@react-aria/i18n@3.12.10(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@internationalized/date': 3.8.2
+      '@internationalized/message': 3.1.8
+      '@internationalized/number': 3.6.3
+      '@internationalized/string': 3.2.7
+      '@react-aria/ssr': 3.9.9(react@19.1.0)
+      '@react-aria/utils': 3.29.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-types/shared': 3.30.0(react@19.1.0)
+      '@swc/helpers': 0.5.17
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+
   '@react-aria/i18n@3.12.9(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@internationalized/date': 3.8.1
@@ -2421,6 +2513,11 @@ snapshots:
       '@swc/helpers': 0.5.17
       react: 19.1.0
 
+  '@react-aria/ssr@3.9.9(react@19.1.0)':
+    dependencies:
+      '@swc/helpers': 0.5.17
+      react: 19.1.0
+
   '@react-aria/switch@3.7.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@react-aria/toggle': 3.11.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -2562,6 +2659,17 @@ snapshots:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
+  '@react-aria/utils@3.29.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@react-aria/ssr': 3.9.9(react@19.1.0)
+      '@react-stately/flags': 3.1.2
+      '@react-stately/utils': 3.10.7(react@19.1.0)
+      '@react-types/shared': 3.30.0(react@19.1.0)
+      '@swc/helpers': 0.5.17
+      clsx: 2.1.1
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+
   '@react-aria/virtualizer@4.1.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@react-aria/i18n': 3.12.9(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -2671,6 +2779,10 @@ snapshots:
       react: 19.1.0
 
   '@react-stately/flags@3.1.1':
+    dependencies:
+      '@swc/helpers': 0.5.17
+
+  '@react-stately/flags@3.1.2':
     dependencies:
       '@swc/helpers': 0.5.17
 
@@ -2832,6 +2944,11 @@ snapshots:
       '@swc/helpers': 0.5.17
       react: 19.1.0
 
+  '@react-stately/utils@3.10.7(react@19.1.0)':
+    dependencies:
+      '@swc/helpers': 0.5.17
+      react: 19.1.0
+
   '@react-stately/virtualizer@4.4.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@react-aria/utils': 3.29.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -2957,6 +3074,10 @@ snapshots:
       react: 19.1.0
 
   '@react-types/shared@3.29.1(react@19.1.0)':
+    dependencies:
+      react: 19.1.0
+
+  '@react-types/shared@3.30.0(react@19.1.0)':
     dependencies:
       react: 19.1.0
 
