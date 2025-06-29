@@ -16,7 +16,7 @@
     "@types/react-dom": "19.1.6",
     "@vitejs/plugin-react": "4.6.0",
     "autoprefixer": "10.4.21",
-    "tailwindcss": "4.1.10",
+    "tailwindcss": "4.1.11",
     "typescript": "5.8.3",
     "vite": "6.3.5"
   },
@@ -27,7 +27,7 @@
     "@marigold/theme-b2b": "30.0.7",
     "@marigold/theme-core": "29.0.7",
     "@marigold/theme-rui": "1.1.5",
-    "@tailwindcss/vite": "4.1.10",
+    "@tailwindcss/vite": "4.1.11",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
