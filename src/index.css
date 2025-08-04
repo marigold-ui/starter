@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import '@marigold/theme-core/theme.css';
+@import '@marigold/theme-rui/theme.css';
 
 /* needed to find styles otherwise not working */
 @source '../node_modules/@marigold';
