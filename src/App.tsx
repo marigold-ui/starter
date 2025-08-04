@@ -6,7 +6,7 @@ import {
   MarigoldProvider,
   Text,
 } from '@marigold/components';
-import theme from '@marigold/theme-core';
+import theme from '@marigold/theme-rui';
 
 export const App = () => (
   <MarigoldProvider theme={theme}>
