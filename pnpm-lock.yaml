@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@marigold/components':
         specifier: 14.1.1
-        version: 14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@marigold/icons':
         specifier: 1.3.17
-        version: 1.3.17(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 1.3.17(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@marigold/system':
         specifier: 14.1.1
-        version: 14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@marigold/theme-rui':
         specifier: 1.4.1
-        version: 1.4.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(tailwindcss@4.1.11)
+        version: 1.4.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(tailwindcss@4.1.11)
       '@tailwindcss/vite':
         specifier: 4.1.11
         version: 4.1.11(vite@7.1.1(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.6.0))
@@ -31,11 +31,11 @@ importers:
         version: 19.1.1(react@19.1.1)
     devDependencies:
       '@types/react':
-        specifier: 19.1.9
-        version: 19.1.9
+        specifier: 19.1.10
+        version: 19.1.10
       '@types/react-dom':
         specifier: 19.1.7
-        version: 19.1.7(@types/react@19.1.9)
+        version: 19.1.7(@types/react@19.1.10)
       '@vitejs/plugin-react':
         specifier: 4.7.0
         version: 4.7.0(vite@7.1.1(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.6.0))
@@ -1165,8 +1165,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.9':
-    resolution: {integrity: sha512-WmdoynAX8Stew/36uTSVMcLJJ1KRh6L3IZRx1PZ7qJtBqT3dYTgyDTx8H1qoRghErydW7xw9mSJ3wS//tCRpFA==}
+  '@types/react@19.1.10':
+    resolution: {integrity: sha512-EhBeSYX0Y6ye8pNebpKrwFJq7BoQ8J5SO6NlvNwwHjSj6adXJViPQrKlsyPw7hLBLvckEMO1yxeGdR82YBBlDg==}
 
   '@vitejs/plugin-react@4.7.0':
     resolution: {integrity: sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA==}
@@ -1807,11 +1807,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@marigold/components@14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@marigold/components@14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@internationalized/date': 3.8.2
-      '@marigold/system': 14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@marigold/types': 1.3.2(@types/react@19.1.9)
+      '@marigold/system': 14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@marigold/types': 1.3.2(@types/react@19.1.10)
       '@react-aria/button': 3.14.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@react-aria/calendar': 3.9.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@react-aria/focus': 3.21.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -1838,17 +1838,17 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/icons@1.3.17(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@marigold/icons@1.3.17(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@marigold/system': 14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@marigold/system': 14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react: 19.1.1
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
 
-  '@marigold/system@14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@marigold/system@14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@marigold/types': 1.3.2(@types/react@19.1.9)
+      '@marigold/types': 1.3.2(@types/react@19.1.10)
       '@react-aria/i18n': 3.12.11(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       class-variance-authority: 0.7.1
       deepmerge: 4.3.1
@@ -1861,10 +1861,10 @@ snapshots:
 
   '@marigold/theme-plugins@1.0.2': {}
 
-  '@marigold/theme-rui@1.4.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(tailwindcss@4.1.11)':
+  '@marigold/theme-rui@1.4.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(tailwindcss@4.1.11)':
     dependencies:
-      '@marigold/components': 14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@marigold/system': 14.1.1(@types/react@19.1.9)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@marigold/components': 14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@marigold/system': 14.1.1(@types/react@19.1.10)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@marigold/theme-plugins': 1.0.2
       tailwindcss-animate: 1.0.7(tailwindcss@4.1.11)
       tailwindcss-react-aria-components: 2.0.0(tailwindcss@4.1.11)
@@ -1874,9 +1874,9 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@marigold/types@1.3.2(@types/react@19.1.9)':
+  '@marigold/types@1.3.2(@types/react@19.1.10)':
     dependencies:
-      '@types/react': 19.1.9
+      '@types/react': 19.1.10
       type-fest: 4.41.0
 
   '@react-aria/autocomplete@3.0.0-beta.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
@@ -3081,11 +3081,11 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/react-dom@19.1.7(@types/react@19.1.9)':
+  '@types/react-dom@19.1.7(@types/react@19.1.10)':
     dependencies:
-      '@types/react': 19.1.9
+      '@types/react': 19.1.10
 
-  '@types/react@19.1.9':
+  '@types/react@19.1.10':
     dependencies:
       csstype: 3.1.3
 
