@@ -12,8 +12,8 @@
   "homepage": "https://github.com/marigold-ui/starter#readme",
   "packageManager": "pnpm@10.15.0",
   "devDependencies": {
-    "@types/react": "19.1.11",
-    "@types/react-dom": "19.1.7",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
     "@vitejs/plugin-react": "5.0.2",
     "autoprefixer": "10.4.21",
     "tailwindcss": "4.1.12",
