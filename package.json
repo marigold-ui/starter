@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/react": "19.1.11",
     "@types/react-dom": "19.1.7",
-    "@vitejs/plugin-react": "4.7.0",
+    "@vitejs/plugin-react": "5.0.2",
     "autoprefixer": "10.4.21",
     "tailwindcss": "4.1.12",
     "typescript": "5.9.2",
