@@ -12,8 +12,8 @@ importers:
         specifier: 14.1.1
         version: 14.1.1(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@marigold/icons':
-        specifier: 1.3.21
-        version: 1.3.21(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 1.3.22
+        version: 1.3.22(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@marigold/system':
         specifier: 14.1.1
         version: 14.1.1(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -362,8 +362,8 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/icons@1.3.21':
-    resolution: {integrity: sha512-uCQX9QR6PZnhcqyxQ0oOrGn/J4oxnZ4jCNVgoMr7y8McoKANMTzNkdxRN3y6/bcDe3zXsU2WUHDNnMFicN5ihw==}
+  '@marigold/icons@1.3.22':
+    resolution: {integrity: sha512-82XVBYAnBQAxiU72lSSOJfAwDudDM+kPzOR2tosURcezee7n8MgyyzcoCK0yfYWNnumGVeZhf3pIJz6JwWwFlA==}
     peerDependencies:
       react: '>=17.0.0'
 
@@ -373,8 +373,8 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/system@15.1.0':
-    resolution: {integrity: sha512-PMy6xxoKxhX4ZrMsknXY2s5HJwowumY5MXelUN973jk6eTAg9HZwJ7dfOGIyjP/ygiy7WG207e73BmXzyqSTjw==}
+  '@marigold/system@15.2.0':
+    resolution: {integrity: sha512-VUJ0SeM2H04uQiIXw3MyJsgNqM9IVWlmgF6omFssK75H4jgrafMUz0IB2APnW+UaSF6pdgYi25hkAPJcvDmsqg==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -1907,9 +1907,9 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/icons@1.3.21(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@marigold/icons@1.3.22(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@marigold/system': 15.1.0(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@marigold/system': 15.2.0(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react: 19.1.1
     transitivePeerDependencies:
       - '@types/react'
@@ -1928,7 +1928,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/system@15.1.0(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@marigold/system@15.2.0(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@marigold/types': 1.3.2(@types/react@19.1.13)
       '@react-aria/i18n': 3.12.12(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
