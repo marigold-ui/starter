@@ -18,7 +18,7 @@
     "autoprefixer": "10.4.21",
     "tailwindcss": "4.1.13",
     "typescript": "5.9.2",
-    "vite": "7.1.6"
+    "vite": "7.1.7"
   },
   "dependencies": {
     "@marigold/components": "14.1.1",
