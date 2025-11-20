@@ -18,8 +18,8 @@ importers:
         specifier: 15.4.3
         version: 15.4.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/theme-rui':
-        specifier: 2.3.0
-        version: 2.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)
+        specifier: 3.0.3
+        version: 3.0.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)
       '@tailwindcss/vite':
         specifier: 4.1.17
         version: 4.1.17(vite@7.2.2(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.6.0))
@@ -318,9 +318,6 @@ packages:
   '@internationalized/date@3.10.0':
     resolution: {integrity: sha512-oxDR/NTEJ1k+UFVQElaNIk65E/Z83HK1z1WI3lQyhTtnNg4R5oVXaPzK3jcpKG8UHKDVuDQHzn+wsxSz8RP3aw==}
 
-  '@internationalized/date@3.9.0':
-    resolution: {integrity: sha512-yaN3brAnHRD+4KyyOsJyk49XUvj2wtbNACSqg0bz3u8t2VuzhC8Q5dfRnrSxjnnbDb+ienBnkn1TzQfE154vyg==}
-
   '@internationalized/message@3.1.8':
     resolution: {integrity: sha512-Rwk3j/TlYZhn3HQ6PyXUV0XP9Uv42jqZGNegt0BXlxjE6G3+LwHjbQZAGHhCnCPdaA6Tvd3ma/7QzLlLkJxAWA==}
 
@@ -346,12 +343,6 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@marigold/components@15.3.0':
-    resolution: {integrity: sha512-necNGgWM5uQmAcRgmPoBf+o2Tt+7iO0f+CNrC7blocYXCWxVx+BOC/n+tiwa2lWSwSKmuF4taiqKtMKRhErABQ==}
-    peerDependencies:
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-
   '@marigold/components@15.4.3':
     resolution: {integrity: sha512-2hNaXttbgKslZmEgKwgDDWi4bUXRQuzVoHCdmjzeGSXAgp70Ga4+fUKEs4aPKY0XC/hBQy4dxagWkqlY/waVtA==}
     peerDependencies:
@@ -363,12 +354,6 @@ packages:
     peerDependencies:
       react: '>=17.0.0'
 
-  '@marigold/system@15.3.0':
-    resolution: {integrity: sha512-AxA1/bc6ZjxuaFMBzrs2DgqKaOuLJuORq5FCqyjmbeYBKu/PhaC/5XnYKOf5ZKJY6zSdYyJ5jxLK2N+RBom6VA==}
-    peerDependencies:
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-
   '@marigold/system@15.4.3':
     resolution: {integrity: sha512-UPEbiu4LftNHOqivmKL0GaHnOmIA/VnUB6/YZMGoKXF4O9O328lrdEKd1vr/90CYfdEnWy4Ve2HIakNegEEG1A==}
     peerDependencies:
@@ -378,13 +363,8 @@ packages:
   '@marigold/theme-plugins@1.0.2':
     resolution: {integrity: sha512-/WTGG5Feg3Pj0dmgW/LnXXrj/8IljnnEeKMPjd+SHPLBD8nfm9K0Wxla1nMdR6WUpNeg7mQ+VR287DG8wyY5gg==}
 
-  '@marigold/theme-rui@2.3.0':
-    resolution: {integrity: sha512-5fXJooFIeV1T/1bZjKpdQba1j2hADnav9n66Glgx0u76JmL3dr3tDnEn9PXG2ETpljsPmzXbRaRzKqY2hLH0AA==}
-
-  '@marigold/types@1.3.2':
-    resolution: {integrity: sha512-44gdbQ+v9BeFd/4AebMT8+avXwY79OlD5lf4EKFEcgCBEOaO4fxnDYaai3kpfNe1xfvYBjJy5FCcNeWQm4Qzyg==}
-    peerDependencies:
-      '@types/react': ^17.0.0 || ^18.0.0 || ^19.0.0
+  '@marigold/theme-rui@3.0.3':
+    resolution: {integrity: sha512-RHxc4wjixh3dO0pzKkNvIJFiE7flooka7h0w8yarZymH8xVVdcJY5tGaO+hjsXaFESkL9MiBW88gPks1cVOPug==}
 
   '@marigold/types@1.4.0':
     resolution: {integrity: sha512-WdHpvpjhXgEd5Oc7kZfvAyz4GW3rwHFK7p99odVq3NngdldEGRoJ8nSKJ3PMKdvHuO+YQeHsXKf9Qs+S3VOPaQ==}
@@ -664,12 +644,6 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
-  '@react-aria/utils@3.30.1':
-    resolution: {integrity: sha512-zETcbDd6Vf9GbLndO6RiWJadIZsBU2MMm23rBACXLmpRztkrIqPEb2RVdlLaq1+GklDx0Ii6PfveVjx+8S5U6A==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-      react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-
   '@react-aria/utils@3.31.0':
     resolution: {integrity: sha512-ABOzCsZrWzf78ysswmguJbx3McQUja7yeGj6/vZo4JVsZNlxAN+E9rs381ExBRI0KzVo6iBTeX5De8eMZPJXig==}
     peerDependencies:
@@ -945,11 +919,6 @@ packages:
 
   '@react-types/select@3.11.0':
     resolution: {integrity: sha512-SzIsMFVPCbXE1Z1TLfpdfiwJ1xnIkcL1/CjGilmUKkNk5uT7rYX1xCJqWCjXI0vAU1xM4Qn+T3n8de4fw6HRBg==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-
-  '@react-types/shared@3.32.0':
-    resolution: {integrity: sha512-t+cligIJsZYFMSPFMvsJMjzlzde06tZMOIOFa1OV5Z0BcMowrb2g4mB57j/9nP28iJIRYn10xCniQts+qadrqQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
@@ -1807,10 +1776,6 @@ snapshots:
     dependencies:
       '@swc/helpers': 0.5.17
 
-  '@internationalized/date@3.9.0':
-    dependencies:
-      '@swc/helpers': 0.5.17
-
   '@internationalized/message@3.1.8':
     dependencies:
       '@swc/helpers': 0.5.17
@@ -1842,37 +1807,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  '@marigold/components@15.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
-    dependencies:
-      '@internationalized/date': 3.9.0
-      '@marigold/system': 15.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@marigold/types': 1.3.2(@types/react@19.2.5)
-      '@react-aria/button': 3.14.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/calendar': 3.9.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/focus': 3.21.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/i18n': 3.12.13(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/interactions': 3.25.6(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/label': 3.7.22(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/landmark': 3.0.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/overlays': 3.30.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/selection': 3.26.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/ssr': 3.9.10(react@19.2.0)
-      '@react-aria/table': 3.17.8(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/utils': 3.30.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-aria/visually-hidden': 3.8.28(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@react-stately/collections': 3.12.8(react@19.2.0)
-      '@react-stately/data': 3.14.1(react@19.2.0)
-      '@react-stately/table': 3.15.1(react@19.2.0)
-      '@react-stately/tree': 3.9.3(react@19.2.0)
-      '@react-types/shared': 3.32.0(react@19.2.0)
-      '@react-types/table': 3.13.4(react@19.2.0)
-      react: 19.2.0
-      react-aria-components: 1.13.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      react-dom: 19.2.0(react@19.2.0)
-      react-stately: 3.42.0(react@19.2.0)
-    transitivePeerDependencies:
-      - '@types/react'
 
   '@marigold/components@15.4.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
@@ -1913,19 +1847,6 @@ snapshots:
       - '@types/react'
       - react-dom
 
-  '@marigold/system@15.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
-    dependencies:
-      '@marigold/types': 1.3.2(@types/react@19.2.5)
-      '@react-aria/i18n': 3.12.13(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      class-variance-authority: 0.7.1
-      deepmerge: 4.3.1
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-      react-fast-compare: 3.2.2
-      tailwind-merge: 3.3.1
-    transitivePeerDependencies:
-      - '@types/react'
-
   '@marigold/system@15.4.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@marigold/types': 1.4.0(@types/react@19.2.5)
@@ -1941,10 +1862,10 @@ snapshots:
 
   '@marigold/theme-plugins@1.0.2': {}
 
-  '@marigold/theme-rui@2.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)':
+  '@marigold/theme-rui@3.0.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)':
     dependencies:
-      '@marigold/components': 15.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@marigold/system': 15.3.0(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@marigold/components': 15.4.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@marigold/system': 15.4.3(@types/react@19.2.5)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/theme-plugins': 1.0.2
       tailwindcss-animate: 1.0.7(tailwindcss@4.1.17)
       tailwindcss-react-aria-components: 2.0.1(tailwindcss@4.1.17)
@@ -1953,11 +1874,6 @@ snapshots:
       - react
       - react-dom
       - tailwindcss
-
-  '@marigold/types@1.3.2(@types/react@19.2.5)':
-    dependencies:
-      '@types/react': 19.2.5
-      type-fest: 4.41.0
 
   '@marigold/types@1.4.0(@types/react@19.2.5)':
     dependencies:
@@ -2565,17 +2481,6 @@ snapshots:
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
 
-  '@react-aria/utils@3.30.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
-    dependencies:
-      '@react-aria/ssr': 3.9.10(react@19.2.0)
-      '@react-stately/flags': 3.1.2
-      '@react-stately/utils': 3.10.8(react@19.2.0)
-      '@react-types/shared': 3.32.1(react@19.2.0)
-      '@swc/helpers': 0.5.17
-      clsx: 2.1.1
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-
   '@react-aria/utils@3.31.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@react-aria/ssr': 3.9.10(react@19.2.0)
@@ -2978,10 +2883,6 @@ snapshots:
   '@react-types/select@3.11.0(react@19.2.0)':
     dependencies:
       '@react-types/shared': 3.32.1(react@19.2.0)
-      react: 19.2.0
-
-  '@react-types/shared@3.32.0(react@19.2.0)':
-    dependencies:
       react: 19.2.0
 
   '@react-types/shared@3.32.1(react@19.2.0)':
