@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@marigold/components':
-        specifier: 15.4.3
-        version: 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 16.0.0
+        version: 16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/icons':
         specifier: 1.3.28
         version: 1.3.28(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/system':
-        specifier: 15.4.3
-        version: 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 16.0.0
+        version: 16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/theme-rui':
-        specifier: 3.0.3
-        version: 3.0.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)
+        specifier: 4.0.0
+        version: 4.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)
       '@tailwindcss/vite':
         specifier: 4.1.17
         version: 4.1.17(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.6.0))
@@ -343,8 +343,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@marigold/components@15.4.3':
-    resolution: {integrity: sha512-2hNaXttbgKslZmEgKwgDDWi4bUXRQuzVoHCdmjzeGSXAgp70Ga4+fUKEs4aPKY0XC/hBQy4dxagWkqlY/waVtA==}
+  '@marigold/components@16.0.0':
+    resolution: {integrity: sha512-qMsHPfoSvJJ8pFyNVhC7j1j4t/2Fq2dj3HxItHqzHoUaTT8SETbzY8OZm7Q0JCltvRGEBsSFIVdo/QiURkF8XA==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -354,23 +354,14 @@ packages:
     peerDependencies:
       react: '>=17.0.0'
 
-  '@marigold/system@15.4.3':
-    resolution: {integrity: sha512-UPEbiu4LftNHOqivmKL0GaHnOmIA/VnUB6/YZMGoKXF4O9O328lrdEKd1vr/90CYfdEnWy4Ve2HIakNegEEG1A==}
-    peerDependencies:
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-
   '@marigold/system@16.0.0':
     resolution: {integrity: sha512-jVqBiwujTqlVN2/VW4NHDAjLHmPPeymWfv80Mtg2C9N9cYvbhsL7DHUq9F1rS4eZ4LqufnnQD2ReLtYbaADeNg==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/theme-plugins@1.0.2':
-    resolution: {integrity: sha512-/WTGG5Feg3Pj0dmgW/LnXXrj/8IljnnEeKMPjd+SHPLBD8nfm9K0Wxla1nMdR6WUpNeg7mQ+VR287DG8wyY5gg==}
-
-  '@marigold/theme-rui@3.0.3':
-    resolution: {integrity: sha512-RHxc4wjixh3dO0pzKkNvIJFiE7flooka7h0w8yarZymH8xVVdcJY5tGaO+hjsXaFESkL9MiBW88gPks1cVOPug==}
+  '@marigold/theme-rui@4.0.0':
+    resolution: {integrity: sha512-nlsVXZ/Z1YTEbdJks1oUXi1lYBwv70QdTd7dKDAY/Wtr+0/rNIqFfGfKD0m8C49zmMij8KzbXJDOZwYUYV0tlQ==}
 
   '@marigold/types@1.4.0':
     resolution: {integrity: sha512-WdHpvpjhXgEd5Oc7kZfvAyz4GW3rwHFK7p99odVq3NngdldEGRoJ8nSKJ3PMKdvHuO+YQeHsXKf9Qs+S3VOPaQ==}
@@ -1457,9 +1448,6 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  tailwind-merge@3.3.1:
-    resolution: {integrity: sha512-gBXpgUm/3rp1lMZZrM/w7D8GKqshif0zAymAhbCyIt8KMe+0v9DQ7cdYLR4FHH/cKpdTXb+A/tKKU3eolfsI+g==}
-
   tailwind-merge@3.4.0:
     resolution: {integrity: sha512-uSaO4gnW+b3Y2aWoWfFpX62vn2sR3skfhbjsEnaBI81WD1wBLlHZe5sWf0AqjksNdYTbGBEd0UasQMT3SNV15g==}
 
@@ -1817,10 +1805,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@marigold/components@15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@marigold/components@16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@internationalized/date': 3.10.0
-      '@marigold/system': 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@marigold/system': 16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/types': 1.4.0(@types/react@19.2.7)
       '@react-aria/button': 3.14.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@react-aria/calendar': 3.9.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -1856,19 +1844,6 @@ snapshots:
       - '@types/react'
       - react-dom
 
-  '@marigold/system@15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
-    dependencies:
-      '@marigold/types': 1.4.0(@types/react@19.2.7)
-      '@react-aria/i18n': 3.12.13(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      class-variance-authority: 0.7.1
-      deepmerge: 4.3.1
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-      react-fast-compare: 3.2.2
-      tailwind-merge: 3.3.1
-    transitivePeerDependencies:
-      - '@types/react'
-
   '@marigold/system@16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@marigold/types': 1.4.0(@types/react@19.2.7)
@@ -1882,13 +1857,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/theme-plugins@1.0.2': {}
-
-  '@marigold/theme-rui@3.0.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)':
+  '@marigold/theme-rui@4.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)':
     dependencies:
-      '@marigold/components': 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@marigold/system': 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@marigold/theme-plugins': 1.0.2
+      '@marigold/components': 16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@marigold/system': 16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       tailwindcss-animate: 1.0.7(tailwindcss@4.1.17)
       tailwindcss-react-aria-components: 2.0.1(tailwindcss@4.1.17)
     transitivePeerDependencies:
@@ -3459,8 +3431,6 @@ snapshots:
   semver@6.3.1: {}
 
   source-map-js@1.2.1: {}
-
-  tailwind-merge@3.3.1: {}
 
   tailwind-merge@3.4.0: {}
 
