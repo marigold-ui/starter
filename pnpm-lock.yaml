@@ -12,8 +12,8 @@ importers:
         specifier: 15.4.3
         version: 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/icons':
-        specifier: 1.3.27
-        version: 1.3.27(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 1.3.28
+        version: 1.3.28(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@marigold/system':
         specifier: 15.4.3
         version: 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -349,13 +349,19 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/icons@1.3.27':
-    resolution: {integrity: sha512-2vCgaB80+KeHdVWO1Ed2XD3Ii0g97iPy8iTClkncg3LTK2rhVKWEWaCJRc+nvsBc1zJg2HMsl+kG5syTktwkHw==}
+  '@marigold/icons@1.3.28':
+    resolution: {integrity: sha512-PZxkoUWMVtbgHj0Nf85BzOIoOIlcgGxxnFaoI4JcVLaHZhXfF0FELPuvbaPs58HhN9sxj8Rw8um6cZPWEtGs1A==}
     peerDependencies:
       react: '>=17.0.0'
 
   '@marigold/system@15.4.3':
     resolution: {integrity: sha512-UPEbiu4LftNHOqivmKL0GaHnOmIA/VnUB6/YZMGoKXF4O9O328lrdEKd1vr/90CYfdEnWy4Ve2HIakNegEEG1A==}
+    peerDependencies:
+      react: '>=17.0.0'
+      react-dom: '>=17.0.0'
+
+  '@marigold/system@16.0.0':
+    resolution: {integrity: sha512-jVqBiwujTqlVN2/VW4NHDAjLHmPPeymWfv80Mtg2C9N9cYvbhsL7DHUq9F1rS4eZ4LqufnnQD2ReLtYbaADeNg==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -1454,6 +1460,9 @@ packages:
   tailwind-merge@3.3.1:
     resolution: {integrity: sha512-gBXpgUm/3rp1lMZZrM/w7D8GKqshif0zAymAhbCyIt8KMe+0v9DQ7cdYLR4FHH/cKpdTXb+A/tKKU3eolfsI+g==}
 
+  tailwind-merge@3.4.0:
+    resolution: {integrity: sha512-uSaO4gnW+b3Y2aWoWfFpX62vn2sR3skfhbjsEnaBI81WD1wBLlHZe5sWf0AqjksNdYTbGBEd0UasQMT3SNV15g==}
+
   tailwindcss-animate@1.0.7:
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
@@ -1839,9 +1848,9 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@marigold/icons@1.3.27(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@marigold/icons@1.3.28(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
-      '@marigold/system': 15.4.3(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@marigold/system': 16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react: 19.2.0
     transitivePeerDependencies:
       - '@types/react'
@@ -1857,6 +1866,19 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       react-fast-compare: 3.2.2
       tailwind-merge: 3.3.1
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@marigold/system@16.0.0(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+    dependencies:
+      '@marigold/types': 1.4.0(@types/react@19.2.7)
+      '@react-aria/i18n': 3.12.13(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      class-variance-authority: 0.7.1
+      deepmerge: 4.3.1
+      react: 19.2.0
+      react-dom: 19.2.0(react@19.2.0)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 3.4.0
     transitivePeerDependencies:
       - '@types/react'
 
@@ -3439,6 +3461,8 @@ snapshots:
   source-map-js@1.2.1: {}
 
   tailwind-merge@3.3.1: {}
+
+  tailwind-merge@3.4.0: {}
 
   tailwindcss-animate@1.0.7(tailwindcss@4.1.17):
     dependencies:
