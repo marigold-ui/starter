@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@marigold/components": "16.0.0",
-    "@marigold/icons": "1.3.28",
+    "@marigold/icons": "1.3.29",
     "@marigold/system": "16.0.0",
     "@marigold/theme-rui": "4.0.0",
     "@tailwindcss/vite": "4.1.17",
