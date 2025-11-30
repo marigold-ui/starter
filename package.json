@@ -30,7 +30,8 @@
     "react-dom": "19.2.0"
   },
   "scripts": {
-    "dev": "vite",
+    "copy-styles": "node copy-vendor.js",
+    "dev": "npm run copy-styles && vite",
     "build": "vite build",
     "preview": "vite preview"
   }
