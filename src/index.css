@@ -1,5 +1,13 @@
 @import 'tailwindcss';
 @import '@marigold/theme-rui/theme.css';
 
-/* needed to find styles otherwise not working */
+/* 
+Point to the local copy to make Marigold work.
+Workaround for current Issue: https://github.com/stackblitz/core/issues/3440
+*/
+@source "../vendor/marigold";
+
+/*
+needed for local environment
+*/
 @source '../node_modules/@marigold';
