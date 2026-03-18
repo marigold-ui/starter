@@ -42,7 +42,9 @@ Compound components use dot notation:
 import { SomeIcon } from '@marigold/icons';
 ```
 
-### CSS Setup
+### Styling
+
+Marigold components are styled through the theme — don't apply Tailwind utility classes directly to Marigold components. Use Tailwind only for custom layout wrappers or non-Marigold elements.
 
 Tailwind CSS with Marigold theme styles. See `src/index.css`:
 
@@ -55,18 +57,34 @@ Tailwind CSS with Marigold theme styles. See `src/index.css`:
 - `pnpm build` — production build
 - `pnpm preview` — preview production build
 
+## Prototyping Guidelines
+
+- Keep everything in `src/App.tsx` unless the user asks to split into multiple files. For larger prototypes, create components under `src/`.
+- **Always fetch the MCP docs** before using a component you're unsure about. Don't guess props or patterns — look them up.
+- Prefer Marigold components over plain HTML elements (e.g. use `<Text>` not `<p>`, `<Headline>` not `<h1>`, `<Stack>` not `<div>`).
+- Don't invent props that don't exist. If unsure, fetch the component's MCP doc to verify.
+
+### React Aria Foundation
+
+Marigold is built on [React Aria](https://react-spectrum.adobe.com/react-aria/). This means:
+
+- Use `onPress` instead of `onClick` for buttons and pressable elements
+- Selection uses `onSelectionChange`, not `onChange`
+- Form fields use `onChange` with the value directly (not an event object)
+- Overlays follow the `Trigger` pattern: `<Dialog.Trigger>`, `<Menu.Trigger>`, etc.
+
 ## Marigold Documentation
 
-Marigold provides AI-optimized markdown docs accessible directly via URL. When you need component APIs, props, usage examples, or patterns, fetch the markdown file:
+Marigold provides AI-optimized markdown docs accessible directly via URL. When you need component APIs, props, usage examples, or patterns, fetch the relevant markdown file. URLs use **kebab-case** for multi-word names (e.g. `DatePicker` → `date-picker`, `TopNavigation` → `top-navigation`, `SectionMessage` → `section-message`).
 
 **Base URL:** `https://www.marigold-ui.io/mcp/`
 
 - **Components:** `https://www.marigold-ui.io/mcp/components/<category>/<name>.md`
-  - Categories: application, layout, actions, form, collection, navigation, overlay, content
-  - Example: `https://www.marigold-ui.io/mcp/components/application/provider.md`
+  - Categories: `application`, `layout`, `actions`, `form`, `collection`, `navigation`, `overlay`, `content`
   - Example: `https://www.marigold-ui.io/mcp/components/overlay/dialog.md`
+  - If a component returns a 404, try other categories.
 - **Foundations:** `https://www.marigold-ui.io/mcp/foundations/<topic>.md`
-  - Topics: accessibility, design-tokens, layouts, icons, form-fields, spacing, elevation
+  - Example: `https://www.marigold-ui.io/mcp/foundations/form-fields.md`
 - **Patterns:** `https://www.marigold-ui.io/mcp/patterns/<pattern>.md`
-  - Patterns: forms, form-implementation, filter, loading-states, feedback-messages, async-data-loading, multiple-selection
-- **Getting started:** `https://www.marigold-ui.io/mcp/getting-started/installation.md`
+  - Example: `https://www.marigold-ui.io/mcp/patterns/forms.md`
+- **Getting Started:** `https://www.marigold-ui.io/mcp/getting-started/installation.md`
