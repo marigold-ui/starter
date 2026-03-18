@@ -32,8 +32,6 @@
   "scripts": {
     "copy-styles": "node copy-vendor.js",
     "dev": "pnpm run copy-styles && vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "create-app": "node create-marigold-app/index.js"
+    "build": "vite build"
   }
 }
