@@ -55,6 +55,7 @@ Tailwind CSS with Marigold theme styles. See `src/index.css`:
 
 - `pnpm dev` — start dev server
 - `pnpm build` — production build
+- `pnpm preview` — preview production build
 
 ## Prototyping Guidelines
 
