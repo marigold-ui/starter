@@ -2,4 +2,3 @@ onlyBuiltDependencies:
   - esbuild
 packages:
   - 'src/*'
-  - 'create-marigold-app'
