@@ -1,22 +1,13 @@
-import React from 'react';
-import {
-  Button,
-  Dialog,
-  Inset,
-  MarigoldProvider,
-  Text,
-} from '@marigold/components';
-import theme from '@marigold/theme-rui';
+import { Button, Headline, Inset, Stack, Text } from '@marigold/components';
 
 export const App = () => (
-  <MarigoldProvider theme={theme}>
-    <Inset space={10}>
-      <Dialog.Trigger dismissable={false}>
-        <Button variant="primary">Open me</Button>
-        <Dialog closeButton>
-          <Text>Hello from Marigold! 🏵️</Text>
-        </Dialog>
-      </Dialog.Trigger>
-    </Inset>
-  </MarigoldProvider>
+  <Inset space={10}>
+    <Stack space={6} alignX="center">
+      <Headline level={2}>Welcome to Marigold 🏵️</Headline>
+      <Text>Start prototyping by editing this file.</Text>
+      <Button variant="primary" onPress={() => alert('It works!')}>
+        Get Started
+      </Button>
+    </Stack>
+  </Inset>
 );
