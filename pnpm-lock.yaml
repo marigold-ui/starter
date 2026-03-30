@@ -12,8 +12,8 @@ importers:
         specifier: 17.3.0
         version: 17.3.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
       '@marigold/icons':
-        specifier: 1.3.36
-        version: 1.3.36(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
+        specifier: 1.3.37
+        version: 1.3.37(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
       '@marigold/system':
         specifier: 17.3.0
         version: 17.3.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
@@ -268,13 +268,19 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/icons@1.3.36':
-    resolution: {integrity: sha512-o2wpdAwM3D7uEJN0cv6kysTYQu3PmVDK0McReKda1EMBkJbP255UuvxaohvC1KFlWQbgDz4wELgGcUeA+yMLgQ==}
+  '@marigold/icons@1.3.37':
+    resolution: {integrity: sha512-xHo1G9gbjEYU6Q2Yx45Jjw1duQ4v6iNas7Q4QGeKmjbalL2E3/Q090ByT/FtO/65gyVgitCORLambzhnWsV22g==}
     peerDependencies:
       react: '>=17.0.0'
 
   '@marigold/system@17.3.0':
     resolution: {integrity: sha512-IOA1U2Lr/s74XjYJJlrAyUVcgZIqLrhcn9DbzoUzYsHx0/ymuBth8KDEaLXHsdeot7053RF/LL6f79VVKy9spw==}
+    peerDependencies:
+      react: '>=17.0.0'
+      react-dom: '>=17.0.0'
+
+  '@marigold/system@17.3.1':
+    resolution: {integrity: sha512-OWoRq9SyqYFGdLTblcPLye26IjkW4x0pGJmXCiCumQMBV57wdIMI1wUik2rBuAn792uVzN/t8Fq0xX72pjqRpw==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -1649,9 +1655,9 @@ snapshots:
       - '@types/react'
       - typescript
 
-  '@marigold/icons@1.3.36(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)':
+  '@marigold/icons@1.3.37(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)':
     dependencies:
-      '@marigold/system': 17.3.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
+      '@marigold/system': 17.3.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
       react: 19.2.4
     transitivePeerDependencies:
       - '@types/react'
@@ -1659,6 +1665,20 @@ snapshots:
       - typescript
 
   '@marigold/system@17.3.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)':
+    dependencies:
+      '@marigold/types': 1.4.0(@types/react@19.2.14)
+      '@react-aria/i18n': 3.12.16(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      cva: 1.0.0-beta.4(typescript@5.9.3)
+      deepmerge: 4.3.1
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
+      react-fast-compare: 3.2.2
+      tailwind-merge: 3.5.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - typescript
+
+  '@marigold/system@17.3.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)':
     dependencies:
       '@marigold/types': 1.4.0(@types/react@19.2.14)
       '@react-aria/i18n': 3.12.16(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
