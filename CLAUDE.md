@@ -4,8 +4,8 @@ A starter template for prototyping with the Marigold Design System.
 
 ## Tech Stack
 
-- React 19, TypeScript 5.9, Vite 8, Tailwind CSS 4.2
-- Marigold Components 17.x with RUI theme
+- React, TypeScript, Vite, Tailwind CSS, pnpm
+- Marigold Components with RUI theme
 
 ## Code Style
 
