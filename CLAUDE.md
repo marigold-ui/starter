@@ -4,8 +4,8 @@ A starter template for prototyping with the Marigold Design System.
 
 ## Tech Stack
 
-- React 19, TypeScript 5.9, Vite 8, Tailwind CSS 4.2
-- Marigold Components 17.x with RUI theme
+- React, TypeScript, Vite, Tailwind CSS, pnpm
+- Marigold Components with RUI theme
 
 ## Code Style
 
@@ -44,7 +44,7 @@ import { SomeIcon } from '@marigold/icons';
 
 ### Styling
 
-Marigold components are styled through the theme — don't apply Tailwind utility classes directly to Marigold components. Use Tailwind only for custom layout wrappers or non-Marigold elements.
+Marigold components are styled through the theme — never put `className` with Tailwind utilities on Marigold components. Use their built-in props (e.g. `variant`, `size`, `space`) instead. Use Tailwind only for custom containers, page-level grids, and non-Marigold elements like plain `<div>` or `<section>`.
 
 Tailwind CSS with Marigold theme styles. See `src/index.css`:
 
@@ -62,7 +62,22 @@ Tailwind CSS with Marigold theme styles. See `src/index.css`:
 - Keep everything in `src/App.tsx` unless the user asks to split into multiple files. For larger prototypes, create components under `src/`.
 - **Always fetch the manifest, then the component doc** before using a component you're unsure about. Don't guess props or patterns — look them up.
 - Prefer Marigold components over plain HTML elements (e.g. use `<Text>` not `<p>`, `<Headline>` not `<h1>`, `<Stack>` not `<div>`).
-- Don't invent props that don't exist. If unsure, fetch the component's doc to verify.
+- Don't invent props that don't exist. If unsure, fetch the component doc to verify.
+
+### Layout Primitives
+
+For layout, use these Marigold components instead of raw `<div>` with Tailwind. Fetch the component docs for full props and usage.
+
+- `<Stack>` — vertical stack
+- `<Inline>` — horizontal row that wraps
+- `<Columns>` — column grid
+- `<Aside>` — sidebar layout (exactly 2 children)
+- `<Split />` — pushes flex siblings apart
+- `<Inset>` — adds inner padding
+
+### Forms
+
+Wrap fields in a vertical `<Stack>` layout. Place the submit `<Button>` at the bottom-left. Fetch the [forms pattern doc](https://www.marigold-ui.io/patterns/forms.md) for spacing tokens and full guidance.
 
 ### React Aria Foundation
 

@@ -13,9 +13,15 @@ if (fs.existsSync(destination)) {
 // 2. Create destination folder
 fs.mkdirSync(destination, { recursive: true });
 
-// 3. Copy files (dereferencing symlinks to avoid errors)
+// 3. Copy each package, resolving symlinks to their real paths
 try {
-  fs.cpSync(source, destination, { recursive: true, dereference: true });
+  const packages = fs.readdirSync(source);
+  for (const pkg of packages) {
+    const pkgPath = path.join(source, pkg);
+    const realPath = fs.realpathSync(pkgPath);
+    const destPath = path.join(destination, pkg);
+    fs.cpSync(realPath, destPath, { recursive: true, dereference: true });
+  }
   console.log('✅ Marigold styles copied to src/vendor/marigold');
 } catch (err) {
   console.error('❌ Failed to copy styles:', err.message);

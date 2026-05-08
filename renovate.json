@@ -16,8 +16,13 @@
       "matchPackageNames": [
         "/@marigold/components/",
         "/@marigold/system/",
-        "/@marigold/theme-rui/"
+        "/@marigold/theme-rui/",
+        "/@marigold/icons/"
       ]
+    },
+    {
+      "groupName": "react",
+      "matchPackageNames": ["/^react$/", "/^react-dom$/", "/^react-/"]
     },
     {
       "description": "Automerge non-major updates",
