@@ -60,9 +60,9 @@ Tailwind CSS with Marigold theme styles. See `src/index.css`:
 ## Prototyping Guidelines
 
 - Keep everything in `src/App.tsx` unless the user asks to split into multiple files. For larger prototypes, create components under `src/`.
-- **Always fetch the MCP docs** before using a component you're unsure about. Don't guess props or patterns — look them up.
+- **Always fetch the manifest, then the component doc** before using a component you're unsure about. Don't guess props or patterns — look them up.
 - Prefer Marigold components over plain HTML elements (e.g. use `<Text>` not `<p>`, `<Headline>` not `<h1>`, `<Stack>` not `<div>`).
-- Don't invent props that don't exist. If unsure, fetch the component's MCP doc to verify.
+- Don't invent props that don't exist. If unsure, fetch the component's doc to verify.
 
 ### React Aria Foundation
 
@@ -75,16 +75,17 @@ Marigold is built on [React Aria](https://react-spectrum.adobe.com/react-aria/).
 
 ## Marigold Documentation
 
-Marigold provides AI-optimized markdown docs accessible directly via URL. When you need component APIs, props, usage examples, or patterns, fetch the relevant markdown file. URLs use **kebab-case** for multi-word names (e.g. `DatePicker` → `date-picker`, `TopNavigation` → `top-navigation`, `SectionMessage` → `section-message`).
+Marigold provides AI-optimized markdown docs accessible directly via URL. **Start with the manifest** — it lists every doc page (components, foundations, patterns, getting started) with category, description, and markdown URL.
 
-**Base URL:** `https://www.marigold-ui.io/mcp/`
+**Manifest:** `https://www.marigold-ui.io/api/manifest.json`
 
-- **Components:** `https://www.marigold-ui.io/mcp/components/<category>/<name>.md`
-  - Categories: `application`, `layout`, `actions`, `form`, `collection`, `navigation`, `overlay`, `content`
-  - Example: `https://www.marigold-ui.io/mcp/components/overlay/dialog.md`
-  - If a component returns a 404, try other categories.
-- **Foundations:** `https://www.marigold-ui.io/mcp/foundations/<topic>.md`
-  - Example: `https://www.marigold-ui.io/mcp/foundations/form-fields.md`
-- **Patterns:** `https://www.marigold-ui.io/mcp/patterns/<pattern>.md`
-  - Example: `https://www.marigold-ui.io/mcp/patterns/forms.md`
-- **Getting Started:** `https://www.marigold-ui.io/mcp/getting-started/installation.md`
+Each entry has the shape `{ name, slug, category, description, badge, url }`. Resolve the component you need to its `url`, then fetch `https://www.marigold-ui.io{url}` to get the markdown.
+
+Slugs use **kebab-case** for multi-word names (e.g. `DatePicker` → `date-picker`, `TopNavigation` → `top-navigation`, `SectionMessage` → `section-message`).
+
+Examples (resolved via the manifest):
+
+- Component: `https://www.marigold-ui.io/api/md/components/overlay/dialog.md`
+- Foundation: `https://www.marigold-ui.io/api/md/foundations/form-fields.md`
+- Pattern: `https://www.marigold-ui.io/api/md/patterns/forms.md`
+- Getting Started: `https://www.marigold-ui.io/api/md/getting-started/installation.md`
