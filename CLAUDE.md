@@ -77,7 +77,7 @@ For layout, use these Marigold components instead of raw `<div>` with Tailwind. 
 
 ### Forms
 
-Wrap fields in a vertical `<Stack>` layout. Place the submit `<Button>` at the bottom-left. Fetch the [forms pattern doc](https://www.marigold-ui.io/patterns/forms.md) for spacing tokens and full guidance.
+Wrap fields in a vertical `<Stack>` layout. Place the submit `<Button>` at the bottom-left. Fetch the [forms pattern doc](https://www.marigold-ui.io/patterns/user-input/forms.md) for spacing tokens and full guidance.
 
 ### React Aria Foundation
 
@@ -92,7 +92,7 @@ Marigold is built on [React Aria](https://react-spectrum.adobe.com/react-aria/).
 
 Marigold provides AI-optimized markdown docs accessible directly via URL. **Start with the manifest** — it lists every doc page (components, foundations, patterns, getting started) with category, description, and markdown URL.
 
-**Manifest:** `https://www.marigold-ui.io/api/manifest.json`
+**Manifest:** `https://www.marigold-ui.io/manifest.json`
 
 Each entry has the shape `{ name, slug, category, description, badge, url }`. Resolve the component you need to its `url`, then fetch `https://www.marigold-ui.io{url}` to get the markdown.
 
@@ -100,7 +100,7 @@ Slugs use **kebab-case** for multi-word names (e.g. `DatePicker` → `date-picke
 
 Examples (resolved via the manifest):
 
-- Component: `https://www.marigold-ui.io/api/md/components/overlay/dialog.md`
-- Foundation: `https://www.marigold-ui.io/api/md/foundations/form-fields.md`
-- Pattern: `https://www.marigold-ui.io/api/md/patterns/forms.md`
-- Getting Started: `https://www.marigold-ui.io/api/md/getting-started/installation.md`
+- Component: `https://www.marigold-ui.io/components/overlay/dialog.md`
+- Foundation: `https://www.marigold-ui.io/foundations/form-fields.md`
+- Pattern: `https://www.marigold-ui.io/patterns/user-input/forms.md`
+- Getting Started: `https://www.marigold-ui.io/getting-started/installation.md`
