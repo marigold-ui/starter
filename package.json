@@ -31,8 +31,11 @@
   },
   "scripts": {
     "copy-styles": "node copy-vendor.js",
-    "dev": "pnpm run copy-styles && vite",
+    "predev": "node copy-vendor.js",
+    "dev": "vite",
+    "prebuild": "node copy-vendor.js",
     "build": "vite build",
+    "prepreview": "node copy-vendor.js",
     "preview": "vite preview"
   }
 }

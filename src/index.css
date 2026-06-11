@@ -1,13 +1,15 @@
 @import 'tailwindcss';
 @import '@marigold/theme-rui/theme.css';
 
-/* 
-Point to the local copy to make Marigold work.
-Workaround for current Issue: https://github.com/stackblitz/core/issues/3440
+/*
+Point Tailwind at a real (symlink-free) copy of the Marigold packages so class
+scanning works in StackBlitz/WebContainer, which doesn't follow pnpm's symlinks.
+The copy is created by copy-vendor.js (runs before dev/build/preview).
+Workaround for: https://github.com/stackblitz/core/issues/3440
 */
-@source "./vendor/marigold";
+@source '../node_modules/.marigold-src';
 
 /*
-needed for local environment
+Fallback for local environments where Tailwind can follow the pnpm symlinks.
 */
 @source '../node_modules/@marigold';
