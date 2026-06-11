@@ -31,11 +31,8 @@
   },
   "scripts": {
     "copy-styles": "node copy-vendor.js",
-    "predev": "node copy-vendor.js",
-    "dev": "vite",
-    "prebuild": "node copy-vendor.js",
-    "build": "vite build",
-    "prepreview": "node copy-vendor.js",
-    "preview": "vite preview"
+    "dev": "node copy-vendor.js && vite",
+    "build": "node copy-vendor.js && vite build",
+    "preview": "node copy-vendor.js && vite preview"
   }
 }
