@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/marigold-ui/starter#readme",
-  "packageManager": "pnpm@11.5.3",
+  "packageManager": "pnpm@11.6.0",
   "devDependencies": {
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
