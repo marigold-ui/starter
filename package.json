@@ -26,8 +26,8 @@
     "@marigold/system": "17.9.1",
     "@marigold/theme-rui": "5.5.1",
     "@tailwindcss/vite": "4.3.3",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "scripts": {
     "copy-styles": "node copy-vendor.js",
