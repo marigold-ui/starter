@@ -2,3 +2,17 @@ allowBuilds:
   esbuild: true
 packages:
   - 'src/*'
+# Ported from .npmrc, which pnpm 11 no longer reads for anything but auth/registry.
+minimumReleaseAge: 10080
+minimumReleaseAgeExclude:
+  # First-party packages, so the supply-chain cooldown adds no value here and
+  # would block prereleases (e.g. Marigold 18 RCs) for a week.
+  - '@marigold/*'
+  # React Aria and its satellites: Marigold tracks them closely, so a 7-day
+  # cooldown here blocks Marigold releases rather than gating anything useful.
+  - '@internationalized/*'
+  - '@react-aria/*'
+  - '@react-stately/*'
+  - '@react-types/*'
+  - 'react-aria*'
+  - 'react-stately*'

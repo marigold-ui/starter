@@ -21,16 +21,17 @@
     "vite": "8.1.5"
   },
   "dependencies": {
-    "@marigold/components": "17.9.1",
-    "@marigold/icons": "1.3.45",
-    "@marigold/system": "17.9.1",
-    "@marigold/theme-rui": "5.5.1",
+    "@marigold/components": "18.0.0-rc.5",
+    "@marigold/icons": "2.0.0-rc.5",
+    "@marigold/system": "18.0.0-rc.5",
+    "@marigold/theme-rui": "6.0.0-rc.5",
     "@tailwindcss/vite": "4.3.3",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "scripts": {
     "copy-styles": "node copy-vendor.js",
+    "typecheck": "tsc --noEmit",
     "dev": "pnpm run copy-styles && vite",
     "build": "pnpm run copy-styles && vite build",
     "preview": "pnpm run copy-styles && vite preview"
