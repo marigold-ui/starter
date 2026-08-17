@@ -16,3 +16,8 @@ minimumReleaseAgeExclude:
   - '@react-types/*'
   - 'react-aria*'
   - 'react-stately*'
+  # postcss@8.5.26 is the fix for GHSA-2v37-7h3g-55p8 (high) in its nanoid
+  # dependency. It was published 2026-08-06, so the 7-day cooldown would hold a
+  # security patch hostage until 2026-08-13 -- which is the one thing the
+  # cooldown must not do. Remove this entry once 8.5.26 has aged past the cutoff.
+  - 'postcss'
