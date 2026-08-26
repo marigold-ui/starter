@@ -16,3 +16,9 @@ minimumReleaseAgeExclude:
   - '@react-types/*'
   - 'react-aria*'
   - 'react-stately*'
+
+overrides:
+  # GHSA-2v37-7h3g-55p8 (high): nanoid < 3.3.18 can loop indefinitely when a
+  # custom generator gets size 0. Reached only transitively via postcss.
+  # Drop this once postcss's own range floor moves past 3.3.18 on its own.
+  nanoid: '^3.3.18'

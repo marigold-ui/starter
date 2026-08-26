@@ -30,5 +30,9 @@
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "description": "A security patch must not sit in the supply-chain cooldown. GHSA-2v37-7h3g-55p8 was fixed in nanoid 3.3.18, but the 7-day minimumReleaseAge above skipped it and the resolver picked the still-vulnerable 3.3.17 instead.",
+    "minimumReleaseAge": null
+  }
 }
