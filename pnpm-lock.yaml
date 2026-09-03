@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@marigold/components':
-        specifier: 18.0.0
-        version: 18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+        specifier: 18.1.0
+        version: 18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       '@marigold/icons':
-        specifier: 2.0.0
-        version: 2.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+        specifier: 2.0.1
+        version: 2.0.1(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       '@marigold/system':
-        specifier: 18.0.0
-        version: 18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+        specifier: 18.1.0
+        version: 18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       '@marigold/theme-rui':
-        specifier: 6.0.0
-        version: 6.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.3.3)(typescript@7.0.2)
+        specifier: 6.1.0
+        version: 6.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.3.3)(typescript@7.0.2)
       '@tailwindcss/vite':
         specifier: 4.3.3
         version: 4.3.3(vite@8.2.2(jiti@2.7.0))
@@ -97,25 +97,25 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@marigold/components@18.0.0':
-    resolution: {integrity: sha512-ghDXgYQ6pAjbwmEXDhZ/qb3EPzOTu1zr/Xj8pQrXqKF/oHmG9WFpY9kAbOyMOcNjxWhKqkYTSwLMz7qbNmXyxg==}
+  '@marigold/components@18.1.0':
+    resolution: {integrity: sha512-lDZ6vO6aoYQRD156iATIUU2lt3BDS8NWRhKvonNjkRldJpZEtRX2lL/gqNWOzx1iG12p2NczN3ZWS4cqOd+1MQ==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/icons@2.0.0':
-    resolution: {integrity: sha512-nQDH2r511Mjhw79ARYohdwQPJ+k6ru+THCbOXTz1HwyRIDYry9bhFdRWN3hDwpU5a5wAZo8/R7O60XbKZWGucA==}
+  '@marigold/icons@2.0.1':
+    resolution: {integrity: sha512-RmH+kSorhncGDcSBEQRVjyQQo9bMx6rwVWK+rr3S+7GksnLi3JuPewH+gwSJLLpV9PvS6zvW9bBei0G6Xrp/AQ==}
     peerDependencies:
       react: '>=19.0.0'
 
-  '@marigold/system@18.0.0':
-    resolution: {integrity: sha512-Pqb7AVce/U9oPJTkuKLcMKSnR6JWn98P5D3DBe3jR3OtjsXpljvLhgAbs3HANy52MlV04E7lSjbKDK34YFlsHg==}
+  '@marigold/system@18.1.0':
+    resolution: {integrity: sha512-Lb0vqK6rf1iPxI4B/XtIjJkt/sdXtSN33A/AxB95Y4eoXMBgFLD+ICtdUpuLm6JlOxGt3nMPA/yA8n6jSGqWiA==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@marigold/theme-rui@6.0.0':
-    resolution: {integrity: sha512-+mOjs2tOqWNf7yfG75QUYaHRJP8gnJ6mdMZZNUhLCrOf1yEGLHZTbTQ5oBdJRrNC3InSR0a8qrIa9HoJSkeJ8Q==}
+  '@marigold/theme-rui@6.1.0':
+    resolution: {integrity: sha512-BD3Ma57213Se6fgHGvRNLcOrcWYOPabcoOxkehVmJo6TiDBS/DSPWVirZ2RZ37nuA6aI6Oi29PpsCIgL/UVjRg==}
 
   '@marigold/types@1.4.0':
     resolution: {integrity: sha512-WdHpvpjhXgEd5Oc7kZfvAyz4GW3rwHFK7p99odVq3NngdldEGRoJ8nSKJ3PMKdvHuO+YQeHsXKf9Qs+S3VOPaQ==}
@@ -1123,10 +1123,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@marigold/components@18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)':
+  '@marigold/components@18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)':
     dependencies:
       '@internationalized/date': 3.12.3
-      '@marigold/system': 18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+      '@marigold/system': 18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       '@marigold/types': 1.4.0(@types/react@19.2.18)
       '@react-aria/button': 3.15.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@react-aria/calendar': 3.10.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -1165,9 +1165,9 @@ snapshots:
       - '@types/react'
       - typescript
 
-  '@marigold/icons@2.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)':
+  '@marigold/icons@2.0.1(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)':
     dependencies:
-      '@marigold/system': 18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+      '@marigold/system': 18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       lucide-react: 1.28.0(react@19.2.8)
       react: 19.2.8
     transitivePeerDependencies:
@@ -1175,7 +1175,7 @@ snapshots:
       - react-dom
       - typescript
 
-  '@marigold/system@18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)':
+  '@marigold/system@18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)':
     dependencies:
       '@marigold/types': 1.4.0(@types/react@19.2.18)
       '@react-aria/i18n': 3.13.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -1189,10 +1189,10 @@ snapshots:
       - '@types/react'
       - typescript
 
-  '@marigold/theme-rui@6.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.3.3)(typescript@7.0.2)':
+  '@marigold/theme-rui@6.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.3.3)(typescript@7.0.2)':
     dependencies:
-      '@marigold/components': 18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
-      '@marigold/system': 18.0.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+      '@marigold/components': 18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
+      '@marigold/system': 18.1.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       tailwindcss-react-aria-components: 2.1.1(tailwindcss@4.3.3)
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
