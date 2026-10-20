@@ -21,10 +21,10 @@
     "vite": "8.3.4"
   },
   "dependencies": {
-    "@marigold/components": "18.2.0",
-    "@marigold/icons": "2.0.2",
-    "@marigold/system": "18.2.0",
-    "@marigold/theme-rui": "6.2.0",
+    "@marigold/components": "18.3.0",
+    "@marigold/icons": "2.0.3",
+    "@marigold/system": "18.3.0",
+    "@marigold/theme-rui": "6.2.1",
     "@tailwindcss/vite": "4.3.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
